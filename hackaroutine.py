@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import re
 import time
+import pickle
 # from glob import glob
 # from string import punctuation
 from collections import Counter, OrderedDict
@@ -28,6 +29,9 @@ class CosDNA(HTMLSession):
         'clicks': '&sort=click',
         'reviews': '&sort=review'
     }
+    
+    with open('./data/master_dict.pickle', 'rb') as handle:
+        master_dict = pickle.load(handle)
 
     def __init__(self, name=None):
         super().__init__()
@@ -40,6 +44,21 @@ class Cosmetic(CosDNA):
     Parent class for organizing Products and Ingredients from CosDNA.com.
     Not intended to be used on its own.
     '''
+    
+    stop_words = [
+        'cleanser',
+        'cream',
+        'lotion',
+        'mask',
+        'masque',
+        'moisturizer',
+        'serum',
+        'sunblock',
+        'sunscreen',
+        'toner'
+    ]
+    
+    
     def __init__(self, name=None, cosdna_url=None):
         super().__init__(name)
         self._cosdna_url = cosdna_url
@@ -53,20 +72,20 @@ class Cosmetic(CosDNA):
         if self._cosdna_url:
             return self
         else:
-            self._search(sort, _base_url)
+            self._search(sort, self._query, _base_url)
 
-    def _search(self, sort=None, _base_url=None):
+    def _search(self, query, sort=None, _base_url=None):
         '''
         self.link() > _search()
         Makes a GET request to search_url
         Child classes define more actions
         '''
-        if self._query == 'SKIP':
+        if query == 'SKIP':
             self._name = 'SKIP: ' + self._name
             print(f'{self._name}')
             return self
-        elif self._query:
-            search_url = self._get_search_url(sort, _base_url)
+        elif query:
+            search_url = self._get_search_url(sort, self._query, _base_url)
             self._r = self.get(search_url)
             top = self._r.html.find('td', first=True)   # top result
             if top:
@@ -74,12 +93,15 @@ class Cosmetic(CosDNA):
                                     + top.xpath('//a/@href', first=True))
                 return self
             else:
+#                 temp_query = self._query.split(' ')
+#                 temp_query = ' '.join([w for w in temp_query if w not in Cosmetic.stop_words])
+#                 temp_search_url = self._get_search_url(sort, temp_query, _base_url)
                 # no result
                 nr = self._r.html.find('.text-danger')
                 if nr:
                     print(f'No results for {self._query} on CosDNA.')
-                    print('Enter new search:')
-                    name = input("(to skip search, enter 'SKIP' w/o quotes)")
+                    print('Enter new search (to skip search, enter 'SKIP' w/o quotes):')
+                    name = input('')
                     self._query = name
                     return self._search(sort, _base_url)
                 else:
@@ -89,13 +111,13 @@ class Cosmetic(CosDNA):
             print('Link with valid CosDNA URL or product name to proceed.')
             return self
 
-    def _get_search_url(self, sort=None, _base_url=None):
+    def _get_search_url(self, query, sort=None, _base_url=None):
         '''
         self.link() > _search() > _get_search_url()
         Generates a php search_url directly from query
         Child classes define _base_url
         '''
-        query = re.sub('[^a-z0-9\s\-]', '', self._query.lower())
+        query = re.sub('[^a-z0-9\s\-\']', '', query.lower())
         query = re.sub('([a-z])\-([a-z])', r'\1 \2', query)
         query = query.replace(' ', '+')
         # _base_url defined in child classes
@@ -652,7 +674,7 @@ class Routine(CosDNA):
         Product._cosdna_ids
         '''
         product_vectors = []
-        for product in self._routine:
+        for product in self.products:
             product_vector = []
             product_vector_append = product_vector.append
             for cosdna_id in self._routine_ids:
@@ -701,7 +723,7 @@ class Routine(CosDNA):
             try:
                 ingredient_index = self._routine_ids.index(ingredient_id)
                 if product_vector[ingredient_index] == 1:
-                    isolated_products.append(self._routine[i].name)
+                    isolated_products.append(self.products[i].name)
             except:
                 print(f'Routine does not have {ingredient}.')
                 break
@@ -710,33 +732,29 @@ class Routine(CosDNA):
     @property
     def routine(self):
         try:
-            return [product.name for product in self._routine]
+            return [product.name for product in self.products]
         except:
-            return self._routine
-
-    @property
-    def products(self):
-        return self._routine
+            return self.products
 
     @property
     def cosdna_urls(self):
-        return [product.cosdna_url for product in self._routine]
+        return [product.cosdna_url for product in self.products]
 
     @property
     def brands(self):
-        return [product.brand for product in self._routine]
+        return [product.brand for product in self.products]
 
     @property
     def linked(self):
         try:
-            return all([product.linked for product in self._routine])
+            return all([product.linked for product in self.products])
         except:
             return False
 
     @property
     def synced(self):
         try:
-            return all([product.synced for product in self._routine])
+            return all([product.synced for product in self.products])
         except:
             return False
 

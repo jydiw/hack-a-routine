@@ -21,15 +21,6 @@ class CosDNA(HTMLSession):
     Not intended to be used on its own.
     '''
 
-    base_url = 'https://cosdna.com'
-
-    sort_dict = {
-        'latest': '&sort=date',
-        'featured': '&sort=featured',
-        'clicks': '&sort=click',
-        'reviews': '&sort=review'
-    }
-    
     with open('./data/master_dict.pickle', 'rb') as handle:
         master_dict = pickle.load(handle)
 
@@ -44,8 +35,10 @@ class Cosmetic(CosDNA):
     Parent class for organizing Products and Ingredients from CosDNA.com.
     Not intended to be used on its own.
     '''
-    
-    stop_words = [
+
+    domain = 'https://cosdna.com'
+
+    product_stop_words = [
         'cleanser',
         'cream',
         'lotion',
@@ -57,39 +50,51 @@ class Cosmetic(CosDNA):
         'sunscreen',
         'toner'
     ]
-    
-    
-    def __init__(self, name=None, cosdna_url=None):
+
+    sort_dict = {
+        'latest': '&sort=date',
+        'featured': '&sort=featured',
+        'clicks': '&sort=click',
+        'reviews': '&sort=review'
+    }
+
+
+    def __init__(self, name=None, cosdna_url=None, cosdna_id=None):
         super().__init__(name)
         self._cosdna_url = cosdna_url
+        self._cosdna_id = cosdna_id
+        self._skip = False
 
     def link(self, sort=None, cosdna_url=None, _base_url=None):
         '''
-        Checks if self._cosdna_url is valid
-        then links to self._cosdna_url
+        Updates self._cosdna_url if cosdna_url is valid.
+        If cosdna_url blank, checks if self._cosdna_url is valid
+        If self._cosdna_url blank, searches for CosDNA URL
         '''
-        self._cosdna_url = self._check_url(cosdna_url)
-        if self._cosdna_url:
-            return self
-        else:
-            self._search(sort, self._query, _base_url)
+        if cosdna_url:
+            self._set_cosdna_url(cosdna_url)
+        elif not self.cosdna_url:
+            self._search(sort=sort, _base_url=_base_url)
 
-    def _search(self, query, sort=None, _base_url=None):
+    def _search(self, sort=None, _base_url=None):
         '''
         self.link() > _search()
         Makes a GET request to search_url
         Child classes define more actions
         '''
-        if query == 'SKIP':
-            self._name = 'SKIP: ' + self._name
-            print(f'{self._name}')
+        # self._query defined in child classes
+        if self._query == 'SKIP':
+            self._skip = True
+            print(f'SKIP: {self._name}')
             return self
-        elif query:
-            search_url = self._get_search_url(sort, self._query, _base_url)
+        elif self._query:
+            search_url = self._get_search_url(query=self._query,
+                                              sort=sort,
+                                              _base_url=_base_url)
             self._r = self.get(search_url)
             top = self._r.html.find('td', first=True)   # top result
             if top:
-                self._cosdna_url = (CosDNA.base_url
+                self._cosdna_url = (Cosmetic.domain
                                     + top.xpath('//a/@href', first=True))
                 return self
             else:
@@ -97,13 +102,11 @@ class Cosmetic(CosDNA):
 #                 temp_query = ' '.join([w for w in temp_query if w not in Cosmetic.stop_words])
 #                 temp_search_url = self._get_search_url(sort, temp_query, _base_url)
                 # no result
-                nr = self._r.html.find('.text-danger')
-                if nr:
-                    print(f'No results for {self._query} on CosDNA.')
-                    print('Enter new search (to skip search, enter 'SKIP' w/o quotes):')
-                    name = input('')
-                    self._query = name
-                    return self._search(sort, _base_url)
+                if self._r.html.find('.text-danger'):
+                    print(f'No results for {self._name} on CosDNA.')
+                    print("Enter new search (to skip search, enter 'SKIP' w/o quotes):")
+                    self._query = input(' ')
+                    return self._search(sort=sort, _base_url=_base_url)
                 else:
                     self._cosdna_url = self._r.url
                     return self
@@ -122,8 +125,8 @@ class Cosmetic(CosDNA):
         query = query.replace(' ', '+')
         # _base_url defined in child classes
         # Product() has different sort options, Ingredient() does not
-        if sort in [*CosDNA.sort_dict]:
-            search_url = _base_url + query + CosDNA.sort_dict[sort]
+        if sort in [*Cosmetic.sort_dict]:
+            search_url = _base_url + query + Cosmetic.sort_dict[sort]
         else:
             search_url = _base_url + query
         return search_url
@@ -136,10 +139,18 @@ class Cosmetic(CosDNA):
         if self.cosdna_url:
             # child classes define more actions
             self._r = self.get(self.cosdna_url)
-            return self
         else:
             print('Initialize or link with valid CosDNA URL to proceed')
-            return self
+        return self
+
+    @property
+    def cosdna_url(self):
+        return self._check_url(self._cosdna_url)
+
+    def _set_cosdna_url(self, url=None):
+        if url:
+            if _check_url(url):
+                self._cosdna_url = _check_url(url)
 
     def _check_url(self, url=None):
         '''
@@ -148,22 +159,38 @@ class Cosmetic(CosDNA):
         Parameters
         ----------
         url : str
-            the web address to check'''
-        if not url:
-            if not self._cosdna_url:
-                return None
+            the web address to check
+        '''
+        if url:
+            if Cosmetic.domain in url:
+                return url
             else:
-                return self._cosdna_url
-        elif CosDNA.base_url in url:
-            return url
+                print('Invalid CosDNA URL.')
+                return None
         else:
-            print('Invalid CosDNA URL.')
             return None
 
     @property
-    def cosdna_url(self):
-        return self._check_url(self._cosdna_url)
+    def cosdna_id(self):
+        '''
+        Returns a unique ingredient identifier based on the URL
 
+        Aliases of the same ingredient point to the same URL in the CosDNA
+        database. In the absence of our own relational database, we rely on
+        this identifier to collapse multiple aliases into a single entry,
+        allowing us to:
+        - collapse aliases together when analyzing routines
+        - search for aliases
+        '''
+        if not self._cosdna_id:
+            if self.cosdna_url:
+                return re.findall("eng/(.*).html", self.cosdna_url)[0]
+            else:
+                self._cosdna_id = 'unavailable'
+        return self._cosdna_id
+
+    # linked and synced defined as properties
+    # since Routine() will not share this behavior
     @property
     def linked(self):
         if self.cosdna_url:
@@ -172,7 +199,6 @@ class Cosmetic(CosDNA):
             return False
 
     @property
-    # defined as a property since Routine() will not share this behavior
     def synced(self):
         return self._synced
 
@@ -208,9 +234,10 @@ class Ingredient(Cosmetic):
     'capryloyl salicylic acid'
     '''
 
-    def __init__(self, name=None, cas_no=None, cosdna_url=None):
-        self.cas_no, self._cosdna_id = cas_no, None
-        super().__init__(name, cosdna_url)
+    def __init__(self, name=None, cas_no=None, cosdna_url=None,
+                 cosdna_id=None):
+        super().__init__(name=name, cosdna_url=cosdna_url, cosdna_id=cosdna_id)
+        self.cas_no = cas_no
 
     def link(self, cosdna_url=None):
         '''
@@ -224,6 +251,8 @@ class Ingredient(Cosmetic):
                 - cas_no (preferential), or
                 - name
         '''
+        # self._query separated from self._name
+        # to give priority to search via CAS No.
         if self.cas_no:
             self._query = self.cas_no
         else:
@@ -246,15 +275,18 @@ class Ingredient(Cosmetic):
         - HLB: <https://en.wikipedia.org/wiki/Hydrophilic-lipophilic_balance>
         - CAS No.: <https://en.wikipedia.org/wiki/CAS_Registry_Number>
         '''
-        super().sync()     # goes to cosdna_url
-        self._cosdna_name, self.aliases = self._get_names()
-        self.mass, self.hlb, self.cas_no = self._get_chemical_info()
-        self.description = self._get_description()
-        self._synced = True
+        if not self._skip:
+            super().sync()     # goes to cosdna_url
+            self._cosdna_name, self.aliases = self._get_names()
+            self.mass, self.hlb, self.cas_no = self._get_chemical_info()
+            self.description = self._r.html.find(
+                'div.chem.mb-5 > div.linkb1.ls-2.lh-1', first=True
+                ).text
+            self._synced = True
         return self
 
     def link_sync(self, cosdna_url=None):
-        self.link(cosdna_url)
+        self.link(cosdna_url=cosdna_url)
         self.sync()
         return self
 
@@ -298,47 +330,17 @@ class Ingredient(Cosmetic):
             cas_no = re.findall(".*Cas No[^\d\-]+(\d+\-\d+\-\d+).*", ci)[0]
         return mass, hlb, cas_no
 
-    def _get_description(self):
-        '''
-        Helper function for self.sync()
-        self.sync() > self._get_description()
-
-        Returns the description of the ingredient as it appears in the linked
-        URL
-        '''
-        return self._r.html                                                  \
-                   .find('div.chem.mb-5 > div.linkb1.ls-2.lh-1', first=True) \
-                   .text
-
     @property
     def name(self):
         if self.synced:
             return self._cosdna_name
+        elif self._skip:
+            return 'SKIP: ' + self._name
         else:
             return self._name
 
-    @property
-    def cosdna_id(self):
-        '''
-        Returns a unique ingredient identifier based on the URL
-
-        Aliases of the same ingredient point to the same URL in the CosDNA
-        database. In the absence of our own relational database, we rely on
-        this identifier to collapse multiple aliases into a single entry,
-        allowing us to:
-        - collapse aliases together when analyzing routines
-        - search for aliases
-        '''
-        if not self._cosdna_id:
-            if self.cosdna_url:
-                self._cosdna_id = re.findall(
-                    "eng/(.*).html", self.cosdna_url)[0]
-            else:
-                self._cosdna_id = 'unavailable'
-        return self._cosdna_id
-
-    def __str__(self):
-        return self.name
+    # def __str__(self):
+    #     return self.name
 
 
 class Product(Cosmetic):
@@ -363,10 +365,13 @@ class Product(Cosmetic):
         URL of ingredient in CosDNA database
     '''
 
-    def __init__(self, name=None, brand=None, product=None, cosdna_url=None):
+    def __init__(self, name=None, brand=None, product=None, cosdna_url=None,
+                 cosdna_id=None):
+        # need `self._name` for `name` property
         self._name, self.brand, self.product = name, brand, product
         # initialize using 'name' property
-        super().__init__(self.name, cosdna_url)
+        super().__init__(name=self.name, cosdna_url=cosdna_url,
+                         cosdna_id=cosdna_id)
 
     def link(self, sort='featured', cosdna_url=None):
         '''
@@ -390,7 +395,7 @@ class Product(Cosmetic):
         return super().link(sort=sort, cosdna_url=cosdna_url,
                             _base_url='https://cosdna.com/eng/product.php?q=')
 
-    def sync(self, deep=False):
+    def sync(self, deep=False, sleep=0.5):
         '''
         Scrapes information from linked URL
         - brand name
@@ -409,13 +414,15 @@ class Product(Cosmetic):
         else:
             super().sync()
             self._set_name_brand_product(self._query)
-            self._ingredients = self._get_ingredients(deep)
+            self._ingredients = self._get_ingredients(deep=deep,
+                                                      sleep=sleep)
             self._synced = True
             return self
 
-    def link_sync(self, sort='featured', cosdna_url=None, deep=False):
+    def link_sync(self, sort='featured', cosdna_url=None, deep=False,
+                  sleep=0.5):
         self.link(sort=sort, cosdna_url=cosdna_url)
-        self.sync(deep=deep)
+        self.sync(deep=deep, sleep=sleep)
 
     def _set_name_brand_product(self, name):
         '''
@@ -433,7 +440,7 @@ class Product(Cosmetic):
         else:
             self._name = name
 
-    def _get_ingredients(self, deep):
+    def _get_ingredients(self, deep, sleep=0.5):
         '''
         Helper function for self.sync()
         self.sync() > self._get_ingredients()
@@ -455,14 +462,14 @@ class Product(Cosmetic):
                 # ingredient, function, acne, irritant, safety
                 ing, _, _, _, _ = cells
                 ing_name = ing.text.strip().lower()
-                ing_url = (Cosmetic.base_url
+                ing_url = (Cosmetic.domain
                            + ing.xpath('//a/@href', first=True))
                 # function = self._get_function_info(fun)
                 ingredient = Ingredient(name=ing_name,
                                         cosdna_url=ing_url)
                 if deep:
                     ingredient.sync()
-                    time.sleep(0.5)
+                    time.sleep(sleep)
             else:
                 ing = cells[0]
                 ing_name = ing.find('.text-muted', first=True).text.strip() \
@@ -569,7 +576,7 @@ class Routine(CosDNA):
         '''
         self.link_sync(sort=sort, force=force, _link=True, _sync=False)
 
-    def sync(self, force=False, deep=False):
+    def sync(self, force=False, deep=False, sleep=0.5):
         '''
         Calls Product.sync() for all products in routine
 
@@ -582,11 +589,11 @@ class Routine(CosDNA):
         deep : bool, default False
             Calls Ingredient.sync() on every ingredient in the routine
         '''
-        self.link_sync(sort=sort, force=force, deep=deep, _link=False,
-                       _sync=True)
+        self.link_sync(sort=sort, force=force, deep=deep, sleep=sleep,
+                       _link=False, _sync=True)
 
-    def link_sync(self, sort='featured', force=False, deep=False, _link=True,
-                  _sync=True):
+    def link_sync(self, sort='featured', force=False, deep=False, sleep=0.5,
+                  _link=True, _sync=True):
         '''
         Calls Product.link().sync() for all products in routine
         Tabulates frequency of ingredients across entire routine
@@ -603,19 +610,19 @@ class Routine(CosDNA):
         for product in self.products:
             if _link:
                 if force:
-                    product.link(sort)
+                    product.link(sort=sort)
                 else:
                     if not product.linked:
-                        product.link(sort)
+                        product.link(sort=sort)
             if _sync:
                 if force:
-                    product.sync(deep)
+                    product.sync(deep=deep, sleep=sleep)
                     changes = True
                 else:
                     if not product.synced:
-                        product.sync(deep)
+                        product.sync(deep=deep, sleep=sleep)
                         changes = True
-            time.sleep(0.5)
+            time.sleep(sleep)
         if changes:
             self._analyze()
         else:

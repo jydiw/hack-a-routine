@@ -10,8 +10,12 @@ from collections import Counter, OrderedDict
 import requests
 from requests_html import HTMLSession
 
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.neighbors import NearestNeighbors
+
 
 class OrderedCounter(Counter, OrderedDict):
+    # no additional code is needed to combine these objects
     pass
 
 
@@ -83,11 +87,7 @@ class Cosmetic(CosDNA):
         Child classes define more actions
         '''
         # self._query defined in child classes
-        if self._query == 'SKIP':
-            self._skip = True
-            print(f'SKIP: {self._name}')
-            return self
-        elif self._query:
+        if self._query and not self._skip:
             search_url = self._get_search_url(query=self._query,
                                               sort=sort,
                                               _base_url=_base_url)
@@ -106,7 +106,11 @@ class Cosmetic(CosDNA):
                     print(f'No results for {self._name} on CosDNA.')
                     print("Enter new search (to skip search, enter 'SKIP' w/o quotes):")
                     self._query = input(' ')
-                    return self._search(sort=sort, _base_url=_base_url)
+                    if self._query == 'SKIP':
+                        self._skip = True
+                        return self
+                    else:
+                        return self._search(sort=sort, _base_url=_base_url)
                 else:
                     self._cosdna_url = self._r.url
                     return self
@@ -120,7 +124,7 @@ class Cosmetic(CosDNA):
         Generates a php search_url directly from query
         Child classes define _base_url
         '''
-        query = re.sub('[^a-z0-9\s\-\']', '', query.lower())
+        query = re.sub("[^a-z0-9\s\-\']", '', query.lower())
         query = re.sub('([a-z])\-([a-z])', r'\1 \2', query)
         query = query.replace(' ', '+')
         # _base_url defined in child classes
@@ -136,7 +140,9 @@ class Cosmetic(CosDNA):
         Sets up scrape from linked url
         Child classes define more actions
         '''
-        if self.cosdna_url:
+        if self._skip:
+            pass
+        elif self.cosdna_url:
             # child classes define more actions
             self._r = self.get(self.cosdna_url)
         else:
@@ -275,8 +281,8 @@ class Ingredient(Cosmetic):
         - HLB: <https://en.wikipedia.org/wiki/Hydrophilic-lipophilic_balance>
         - CAS No.: <https://en.wikipedia.org/wiki/CAS_Registry_Number>
         '''
+        super().sync()          # goes to cosdna_url
         if not self._skip:
-            super().sync()     # goes to cosdna_url
             self._cosdna_name, self.aliases = self._get_names()
             self.mass, self.hlb, self.cas_no = self._get_chemical_info()
             self.description = self._r.html.find(
@@ -408,11 +414,11 @@ class Product(Cosmetic):
         deep : bool, default False
             Calls Ingredient.sync() on every ingredient in the routine
         '''
-        if self._query == 'SKIP':
+        super().sync()
+        if self._skip:
             self._ingredients = []
             return self
         else:
-            super().sync()
             self._set_name_brand_product(self._query)
             self._ingredients = self._get_ingredients(deep=deep,
                                                       sleep=sleep)
@@ -425,13 +431,11 @@ class Product(Cosmetic):
         self.sync(deep=deep, sleep=sleep)
 
     def _set_name_brand_product(self, name):
-        '''
+        """
         Helper function for self.sync()
-        self.sync() > self._set_name_brand_product()
-
         Returns the brand name and product name of the product as they appear
         in the linked URL
-        '''
+        """
         cosdna_brand = self._r.html.find('.brand-name', first=True).text.lower()
         cosdna_product = self._r.html.find('.prod-name', first=True).text.lower()
         cosdna_name = str(cosdna_brand + ' ' + cosdna_product).strip()
@@ -462,6 +466,7 @@ class Product(Cosmetic):
                 # ingredient, function, acne, irritant, safety
                 ing, _, _, _, _ = cells
                 ing_name = ing.text.strip().lower()
+                print(ing_name)
                 ing_url = (Cosmetic.domain
                            + ing.xpath('//a/@href', first=True))
                 # function = self._get_function_info(fun)
@@ -554,6 +559,7 @@ class Routine(CosDNA):
         '''
         routine = np.array([routine])
         routine = routine.ravel()
+        routine = [p for p in routine if len(p) > 1]
         for product in routine:
             if type(product) == Product:
                 self.products.append(product)
@@ -589,7 +595,7 @@ class Routine(CosDNA):
         deep : bool, default False
             Calls Ingredient.sync() on every ingredient in the routine
         '''
-        self.link_sync(sort=sort, force=force, deep=deep, sleep=sleep,
+        self.link_sync(force=force, deep=deep, sleep=sleep,
                        _link=False, _sync=True)
 
     def link_sync(self, sort='featured', force=False, deep=False, sleep=0.5,
@@ -652,9 +658,10 @@ class Routine(CosDNA):
         routine_ids = []
         routine_dict = {}
         for product in self.products:
-            product_dict = product._ingredient_dict
-            routine_ids += product._cosdna_ids
-            routine_dict.update(product_dict)
+            if not product._skip:
+                product_dict = product._ingredient_dict
+                routine_ids += product._cosdna_ids
+                routine_dict.update(product_dict)
         routine_dict.update({'unavailable': 'unavailable'})
         return routine_ids, routine_dict
 
@@ -704,6 +711,8 @@ class Routine(CosDNA):
         mask : list, default None
             Specifies which ingredients to return
         '''
+        # dict(Counter) returns a dictionary
+        # then import scipy.sparse?
         if mask:
             mask = [Ingredient(x).link_sync().cosdna_id for x in mask]
             masked_counts = OrderedCounter(
@@ -778,3 +787,19 @@ class Routine(CosDNA):
 
 #     def __repr__(self):
 #         return f'Routine(name={self.name}, routine={[product.name for product in self.routine]})'
+
+
+def ngrams(string, n=3):
+    string = string.encode("ascii", errors="ignore").decode()
+    string = string.lower()
+    chars_to_remove = [")", "(", ".", "|", "[", "]", "{", "}", "'", '"',
+                       "?", "!"]
+    rx = '[' + re.escape(''.join(chars_to_remove)) + ']'
+    string = re.sub(rx, '', string)
+    string = string.replace('&', 'and')
+    string = string.replace(',', ' ')
+    string = string.replace('-', ' ')
+    string = re.sub(' +',' ',string).strip()
+    string = ' '+ string +' ' # pad names for ngrams...
+    ngrams = zip(*[string[i:] for i in range(n)])
+    return [''.join(ngram) for ngram in ngrams]

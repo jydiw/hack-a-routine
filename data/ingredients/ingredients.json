@@ -1,0 +1,5518 @@
+{
+    "90172810251": {
+        "name": "water",
+        "cosdna_name": "water",
+        "aliases": [
+            "aqua",
+            "h2o",
+            "eau",
+            "aqueous",
+            "acqua"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7732-18-5",
+        "description": "Solvent"
+    },
+    "8f2df68856": {
+        "name": "peg-80 sorbitan laurate",
+        "cosdna_name": "peg-80 sorbitan laurate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 19.1,
+        "cas_no": "9005-64-5",
+        "description": "Surfactant(Cleaning agent; Solubilizing Agent; Emulsifier)"
+    },
+    "9a5810119": {
+        "name": "cocamidopropyl betaine",
+        "cosdna_name": "capb",
+        "aliases": [
+            "cocoamidopropyl betaine",
+            "cocoamido propyl betaine",
+            "cocamidopropyl betaine",
+            "cocoyl amide propyldimethyl glycine"
+        ],
+        "mass": 342.52,
+        "hlb": null,
+        "cas_no": "61789-40-0",
+        "description": "Surfactant; Hydrophilic Thickener; Cleaning agent; Foam Booster"
+    },
+    "f3bac6962": {
+        "name": "sodium trideceth sulfate",
+        "cosdna_name": "sodium trideceth sulfate",
+        "aliases": [
+            "sodium tridecyl ether sulfate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25446-78-0",
+        "description": "Surfactant; Cleaning agent; Emulsifier; Foam Booster"
+    },
+    "04e7dc953": {
+        "name": "sodium lauroamphoacetate",
+        "cosdna_name": "sodium lauroamphoacetate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "156028-14-7",
+        "description": "Surfactant; Cleaning agent; Foam Booster"
+    },
+    "4548ae2101": {
+        "name": "peg 150 distearate",
+        "cosdna_name": "peg 150 distearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 16.5,
+        "cas_no": "9005-08-7",
+        "description": "Surfactant, Viscosity Control, Emulsifier"
+    },
+    "48257f1077": {
+        "name": "coq10",
+        "cosdna_name": "coq10",
+        "aliases": [
+            "ubiquinone q10",
+            "coenzyme q10",
+            "co-q10",
+            "q10",
+            "ubiquinol q10",
+            "ubiquinone",
+            "ubiquinol"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "303-98-0",
+        "description": "Antioxidant"
+    },
+    "ee1a1a373": {
+        "name": "vitamin e acetate",
+        "cosdna_name": "tocopheryl acetate",
+        "aliases": [
+            "tocopherol acetate",
+            "\u03b1-tocopheryl acetate",
+            "vitamin e acetate",
+            "vit-e acetate",
+            "dl-a-tocopheryl acetate",
+            "tocophery acetate",
+            "dl-\u03b1-tocopheryl acetate",
+            "dl-alpha-tocopherol acetate"
+        ],
+        "mass": 472.743,
+        "hlb": null,
+        "cas_no": "58-95-7",
+        "description": "Antioxidant; Skin conditioning"
+    },
+    "f246bf490": {
+        "name": "alpha-lipoic acid",
+        "cosdna_name": "\u03b1-lipoic acid",
+        "aliases": [
+            "thioctic acid",
+            "a-lipoic acid",
+            "alpha lipoic acid"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1077-28-7",
+        "description": "Antioxidant"
+    },
+    "2ac38b321": {
+        "name": "vitamin a palmitate",
+        "cosdna_name": "vitamin a palmitate",
+        "aliases": [
+            "all-trans-retinyl palmitate",
+            "retinyl palmitate"
+        ],
+        "mass": 524.86,
+        "hlb": null,
+        "cas_no": "79-81-2",
+        "description": "Antioxidant"
+    },
+    "fcf8b5303": {
+        "name": "vitamin k1",
+        "cosdna_name": "phytonadione",
+        "aliases": [
+            "vitamin k1"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84-80-0",
+        "description": ""
+    },
+    "a83b7c483": {
+        "name": "vitamin d3",
+        "cosdna_name": "cholecalciferol",
+        "aliases": [
+            "vitamin d3"
+        ],
+        "mass": 384.64,
+        "hlb": null,
+        "cas_no": "67-97-0",
+        "description": ""
+    },
+    "fe279c1318": {
+        "name": "vitamin c palmitate",
+        "cosdna_name": "ascorbyl palmitate",
+        "aliases": [
+            "ascorbyl pamitate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "137-66-6",
+        "description": "Antioxidant"
+    },
+    "b8a3bf116": {
+        "name": "citric acid",
+        "cosdna_name": "citric acid",
+        "aliases": [
+            ""
+        ],
+        "mass": 192.124,
+        "hlb": null,
+        "cas_no": "77-92-9",
+        "description": "Chelator; Buffering agent; pH Adjuster\n\n\u679c\u9178\u7684\u4e00\u7a2e, \u4e3b\u8981\u81ea\u67d1\u6a58\u985e\u6c34\u679c\u53d6\u5f97(\u7279\u5225\u662f\u6ab8\u6aac), \u70ba\u90e8\u4efd\u98df\u54c1\u6216\u98f2\u6599\u7684\u9178\u5473\u4f86\u6e90, \u4e26\u53ef\u4f5c\u70ba\u5929\u7136Preservative. \u626e\u6f14\u8457\u4eba\u9ad4\u4e2d\u91cd\u8981\u7684\u6ab8\u6aac\u9178\u5faa\u74b0(Citric Acid Cycle) \u4e0d\u53ef\u6216\u7f3a\u7684\u7269\u8cea[1].\n\n\u7531\u65bc\u4e00\u822c\u800c\u8a00, \u9178\u5ea6\u901a\u5e38\u689d\u70ba\u4e2d~\u5f31\u9178\u6027, \u82e5\u975e\u5f37\u8abf\u542b\u679c\u9178\u914d\u65b9, \u53ea\u80fd\u7b97\u662f\u9178\u9e7c\u8abf\u7bc0\u5291, \u4e26\u7121\u771f\u6b63\u679c\u9178\u529f\u6548[2]."
+    },
+    "fc86a9293": {
+        "name": "panthenol",
+        "cosdna_name": "dexpanthenol",
+        "aliases": [
+            "provitamin b5",
+            "panthenol",
+            "d-panthenol",
+            "dl-panthenol",
+            "provitamin b"
+        ],
+        "mass": 205.251,
+        "hlb": null,
+        "cas_no": "81-13-0",
+        "description": "Humectant; Skin conditioning; Antistatic"
+    },
+    "e812b9352": {
+        "name": "sorbic acid",
+        "cosdna_name": "sorbic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "110-44-1",
+        "description": "Preservative"
+    },
+    "f09549300": {
+        "name": "phenoxyethanol",
+        "cosdna_name": "phenoxyethanol",
+        "aliases": [
+            "phenoxethol",
+            "2-phenoxyethanol",
+            "protectol pe"
+        ],
+        "mass": 138.17,
+        "hlb": null,
+        "cas_no": "122-99-6",
+        "description": "Preservative; Fragrance stabilizer"
+    },
+    "2f5a452621": {
+        "name": "sodium lauroyl glutamate",
+        "cosdna_name": "sodium lauroyl glutamate",
+        "aliases": [
+            "sodium n-lauroyl-l-glutamate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "29923-31-7",
+        "description": "Antistatic; Surfactant"
+    },
+    "205eb9166": {
+        "name": "glycerin",
+        "cosdna_name": "glycerol",
+        "aliases": [
+            "glycerine",
+            "glycerin",
+            "pflanzliches glycerin"
+        ],
+        "mass": 92.09,
+        "hlb": null,
+        "cas_no": "56-81-5",
+        "description": "Solvent, Moisturizer"
+    },
+    "80ae0e12197": {
+        "name": "sodium lauroyl oat amino acids",
+        "cosdna_name": "sodium lauroyl oat amino acids",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Cleaning agent; Antistatic; Skin conditioning"
+    },
+    "c0304615299": {
+        "name": "tea leaf extract",
+        "cosdna_name": "camellia sinensis leaf extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84650-60-2",
+        "description": "Antimicrobial; Antioxidant; Astringent; Emollient; Humectant; Masking; Oral Care; Skin Conditioning; Skin Protecting; Tonic; Uv Absorber"
+    },
+    "72a94a19514": {
+        "name": "propanediol",
+        "cosdna_name": "propanediol",
+        "aliases": [
+            "1,3-propylene glycol",
+            "1,3-dihydroxypropane",
+            "1,3-propanediol",
+            "zemea propanediol"
+        ],
+        "mass": 76.09,
+        "hlb": null,
+        "cas_no": "504-63-2",
+        "description": "Solvent; Viscosity Controlling"
+    },
+    "7927f4219": {
+        "name": "vitamin c",
+        "cosdna_name": "l-ascorbic acid",
+        "aliases": [
+            "ascorbic acid",
+            "vitamin c"
+        ],
+        "mass": 176.12,
+        "hlb": null,
+        "cas_no": "50-81-7",
+        "description": "Antioxidant, Whitening"
+    },
+    "d828e611478": {
+        "name": "alpha-arbutin",
+        "cosdna_name": "alpha-arbutin",
+        "aliases": [
+            "hydroquinone-alpha-d-glucopyranoside",
+            "4-hydroxyphenyl-alpha-d-glucopyranoside",
+            "\u03b1-arbutin"
+        ],
+        "mass": 272.25,
+        "hlb": null,
+        "cas_no": "84380-01-8",
+        "description": "Whitening"
+    },
+    "bd4d8e1208": {
+        "name": "cyclopentasiloxane",
+        "cosdna_name": "cyclopentasiloxane",
+        "aliases": [
+            "decamethylcyclopentasiloxane",
+            "cyclopentasiloxance",
+            "cyclopenasiloxane"
+        ],
+        "mass": 370.77,
+        "hlb": null,
+        "cas_no": "541-02-6",
+        "description": "Solvent, Emollient"
+    },
+    "c7c7fe1947": {
+        "name": "methyl methacrylate crosspolymer",
+        "cosdna_name": "methyl methacrylate crosspolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25777-71-3",
+        "description": "Film-forming agent"
+    },
+    "b05d771602": {
+        "name": "dipropylene glycol",
+        "cosdna_name": "dipropylene glycol",
+        "aliases": [
+            "dpg"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "110-98-5",
+        "description": "Solvent; Humectant"
+    },
+    "e530df6438": {
+        "name": "polymethylsilsesquioxane",
+        "cosdna_name": "polymethylsilsesquioxane",
+        "aliases": [
+            "polymethylsilsequioxane"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68554-70-1",
+        "description": "Opacifying agent"
+    },
+    "2f905810281": {
+        "name": "peg-10 dimethicone",
+        "cosdna_name": "peg-10 dimethicone",
+        "aliases": [
+            "gransurf 77",
+            "kf-6017"
+        ],
+        "mass": null,
+        "hlb": 4.5,
+        "cas_no": "68937-54-2",
+        "description": "Emollient; Silicone Surfactant"
+    },
+    "313d361204": {
+        "name": "hdi/trimethylol hexyllactone crosspolymer",
+        "cosdna_name": "hdi/trimethylol hexyllactone crosspolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Anticaking agent"
+    },
+    "1fdc3980": {
+        "name": "butylene glycol",
+        "cosdna_name": "butylene glycol",
+        "aliases": [
+            "1,3 butylene glycol",
+            "1.3 butylene glycol",
+            "butylene alcohol",
+            "butanediol"
+        ],
+        "mass": 90.12,
+        "hlb": null,
+        "cas_no": "107-88-0",
+        "description": "Moisturizing agents and solvents, Butylene Glycol is a polyols, very widely used in cosmetics.\n\nHydrophilic moisturizing ingredients often used in cleansing cream, but the real effect of Butylene Glycol it dissolve the dirt, avoid drying too quickly during remove stage.\n\nButylene Glycol is a small molecule moisturizing ingredients, which hold water in the stratum corneum, the effect of hygroscopic is not very clear.\n\nThe CIR concluded that Butylene Glycol are safe for use in cosmetics and personal care products."
+    },
+    "d0da2e2588": {
+        "name": "sodium chloride",
+        "cosdna_name": "sodium chloride",
+        "aliases": [
+            "nacl",
+            "natrum muriaticum"
+        ],
+        "mass": 58.443,
+        "hlb": null,
+        "cas_no": "7647-14-5",
+        "description": "Hydrophilic Thickener; Bulking agent"
+    },
+    "293f3810714": {
+        "name": "vinyl dimethicone/methicone silsesquioxane crosspolymer",
+        "cosdna_name": "vinyl dimethicone/methicone silsesquioxane crosspolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Lipophilic Thickener"
+    },
+    "a5b27411203": {
+        "name": "c30-45 alkyl cetearyl dimethicone crosspolymer",
+        "cosdna_name": "c30-45 alkyl cetearyl dimethicone crosspolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "443892-05-5",
+        "description": "Film-forming agent, Skin conditioning"
+    },
+    "4417b53157": {
+        "name": "zinc gluconate",
+        "cosdna_name": "zinc gluconate",
+        "aliases": [
+            "zn gluconate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "4468-02-4",
+        "description": "Deodorant; Skin conditioning"
+    },
+    "c25e5833": {
+        "name": "disodium edta",
+        "cosdna_name": "edetate disodium",
+        "aliases": [
+            "endrate",
+            "disodium edetate",
+            "disodium salt",
+            "disodium edta",
+            "disodium dihydrogen ethylenediaminetetraacetate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "139-33-3",
+        "description": "Chelating Agent"
+    },
+    "466110332": {
+        "name": "salicylic acid",
+        "cosdna_name": "bha",
+        "aliases": [
+            "salicylates",
+            "2-hydroxybenzoic",
+            "salicylic acid",
+            "beta hydroxy acid"
+        ],
+        "mass": 138.12,
+        "hlb": null,
+        "cas_no": "69-72-7",
+        "description": "Exfoliator, Whitening"
+    },
+    "2a40df251": {
+        "name": "mannitol",
+        "cosdna_name": "mannitol",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "87-78-5",
+        "description": "Binding agent; Humectant; Moisturizer; Fragrance; Skin conditioning"
+    },
+    "9257fe393": {
+        "name": "xylitol",
+        "cosdna_name": "xylitol",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "87-99-0",
+        "description": "Moisturizer"
+    },
+    "28bf2810385": {
+        "name": "rhamnose",
+        "cosdna_name": "rhamnose",
+        "aliases": [
+            "l-rhamnose"
+        ],
+        "mass": 164.16,
+        "hlb": null,
+        "cas_no": "3615-41-6",
+        "description": "Fragrance, Moisturizer"
+    },
+    "05a3b6831": {
+        "name": "xanthan gum",
+        "cosdna_name": "xantham gum",
+        "aliases": [
+            "xanthum gum",
+            "xanthen gum",
+            "xanthan gum",
+            "zanthan gum",
+            "xanthan"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "11138-66-2",
+        "description": "Thickener; Emulsion Stabilizer"
+    },
+    "47cc91943": {
+        "name": "sodium hydroxide",
+        "cosdna_name": "sodium hydroxide",
+        "aliases": [
+            "naoh"
+        ],
+        "mass": 39.9971,
+        "hlb": null,
+        "cas_no": "1310-73-2",
+        "description": "pH Adjusters"
+    },
+    "aa6ed93811": {
+        "name": "dodecyl gallate",
+        "cosdna_name": "dodecyl gallate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1166-52-5",
+        "description": "Antioxidant"
+    },
+    "9a77f92529": {
+        "name": "vitamin b6 hydrochloride",
+        "cosdna_name": "pyridoxine hcl",
+        "aliases": [
+            "vitamin b6 hydrochloride"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "58-56-0",
+        "description": "Antistatic; Skin and hair conditioning"
+    },
+    "72100419948": {
+        "name": "fomes officinalis extract",
+        "cosdna_name": "fomes officinalis extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "94465-74-4",
+        "description": "Skin Protecting"
+    },
+    "636161979": {
+        "name": "peg-40 hydrogenated castor oil",
+        "cosdna_name": "peg-40 hydrogenated castor oil",
+        "aliases": [
+            "cremophor rh-40"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "61788-85-0",
+        "description": "Surfactant; Emulsifier; Cosolvent, toning lotion will be more smooth and foaming[1].\n\ncontain less than 1% in th toning lotion products, healthy skin may not feel irritated in this concentration, but for skin injuries and inflammation of skin, the part of solubilizer may cause irritation.Ingredient safety 4/5(the higher the better)[1]."
+    },
+    "3de7c6864": {
+        "name": "fragrance",
+        "cosdna_name": "parfum",
+        "aliases": [
+            "fragance",
+            "fragrances",
+            "perfumery",
+            "flavor",
+            "aroma",
+            "fragrance",
+            "perfume"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Fragrance"
+    },
+    "c0e748279": {
+        "name": "ethylhexyl methoxycinnamate",
+        "cosdna_name": "octinoxate",
+        "aliases": [
+            "octylmethoxy cinnamate",
+            "octyl methoxycinnamate",
+            "ethylhexyl methoxycinnamate",
+            "2-ethylhexyl 4-methoxycinnamate",
+            "2-ethylhexyl-p-methoxycinnamate",
+            "parsol mcx",
+            "escalol 557"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "5466-77-3",
+        "description": "Sunscreen"
+    },
+    "76298d372": {
+        "name": "titanium dioxide",
+        "cosdna_name": "titanium dioxide",
+        "aliases": [
+            "titanium(iv) oxide",
+            "tio2",
+            "ci77891",
+            "ci 77891",
+            "titanium dioxide",
+            "titanium oxides",
+            "titania"
+        ],
+        "mass": 79.866,
+        "hlb": null,
+        "cas_no": "13463-67-7",
+        "description": "In cosmetic and skin care products, titanium dioxide is used as a pigment, sunscreen and a thickener."
+    },
+    "59265a832": {
+        "name": "zinc oxide",
+        "cosdna_name": "zinc oxide",
+        "aliases": [
+            "microfine zinc oxide",
+            "ci 77947"
+        ],
+        "mass": 81.408,
+        "hlb": null,
+        "cas_no": "1314-13-2",
+        "description": "Bulking agent; Skin Protecting; UV absorber"
+    },
+    "cd4ca910296": {
+        "name": "cetyl peg/ppg-10/1 dimethicone",
+        "cosdna_name": "cetyl peg/ppg-10/1 dimethicone",
+        "aliases": [
+            "abil em90"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "W/O Emulsifier; Surfactant; Skin conditioning"
+    },
+    "d82eb289": {
+        "name": "caprylic/capric triglyceride",
+        "cosdna_name": "caprylic/capric triglyceride",
+        "aliases": [
+            "caprylic/caprictriglycerides",
+            "capric/caprylic triglycerides",
+            "glyceryl tricaprylate-caprate",
+            "estasan 3575"
+        ],
+        "mass": 372.5393,
+        "hlb": null,
+        "cas_no": "65381-09-1",
+        "description": "SMOOTHING\u3001MASKING\u3001PERFUMING\u3001SKIN CONDITIONING"
+    },
+    "cd005b2682": {
+        "name": "sorbitan sesquioleate",
+        "cosdna_name": "sorbitan sesquioleate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 3.7,
+        "cas_no": "8007-43-0",
+        "description": "W/O Emulsifier, HLB: 3.7"
+    },
+    "3da165145": {
+        "name": "dimethicone",
+        "cosdna_name": "dimethicone",
+        "aliases": [
+            "tsf 451",
+            "dimethyl polysiloxane",
+            "polydimethylsiloxane",
+            "pdms"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9006-65-9",
+        "description": "Antifoaming; Emollient; Skin Protecting"
+    },
+    "a33544814": {
+        "name": "iron oxides",
+        "cosdna_name": "iron oxides",
+        "aliases": [
+            "iron oxide",
+            "ferric oxide",
+            "iron oxides (ci 77491",
+            "ci 77492",
+            "ci 77499)"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1309-37-1",
+        "description": "Pigment"
+    },
+    "368022598": {
+        "name": "beeswax",
+        "cosdna_name": "beeswax",
+        "aliases": [
+            "bees wax",
+            "beewax",
+            "cera alba",
+            "cire d'abeille",
+            "cera flava",
+            "white beeswax"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8006-40-4",
+        "description": "Emollient; Emulsifier; Film-forming agent; Binding agent; Lipophilic Viscosity Increasing Agent"
+    },
+    "7fbdb92691": {
+        "name": "stearalkonium hectorite",
+        "cosdna_name": "stearalkonium hectorite",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "12691-60-0",
+        "description": "Suspending agent; Viscosity Controlling; Gel Forming"
+    },
+    "45183e246": {
+        "name": "magnesium aluminum silicate",
+        "cosdna_name": "magnesium aluminum silicate",
+        "aliases": [
+            "veegum"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "12199-59-9",
+        "description": "Absorbent; Opacifying agent; Emulsifier Stabilizing agent; Astringent; Oil Control; Viscosity Controlling"
+    },
+    "3e4f37100": {
+        "name": "ozokerite",
+        "cosdna_name": "ceresin",
+        "aliases": [
+            "earth wax",
+            "ceresine",
+            "mineral wax",
+            "ozokerite",
+            "ozokerite wax",
+            "ceresine wax",
+            "ozocerite"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "12198-93-5",
+        "description": "Antistatic; Binding; Emulsion Stabilizer; Opacifying agent; Thickener;"
+    },
+    "6dde7e10454": {
+        "name": "dimethicone/vinyl dimethicone crosspolymer",
+        "cosdna_name": "dimethicone/vinyl dimethicone crosspolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "243137-53-3",
+        "description": "Lipophilic Thickener"
+    },
+    "8ce86910811": {
+        "name": "peg-10 dimethicone crosspolymer",
+        "cosdna_name": "peg-10 dimethicone crosspolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Silicone Thickener - Nonaqueous"
+    },
+    "bfeb7610984": {
+        "name": "cyclotetrasiloxane",
+        "cosdna_name": "cyclotetrasiloxane",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "556-67-2",
+        "description": "Solvent, Hair conditioning"
+    },
+    "ef37c019760": {
+        "name": "chamomile flower extract",
+        "cosdna_name": "chamomilla recutita flower extract",
+        "aliases": [
+            "matricaria flower extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84082-60-0",
+        "description": "Masking; Skin Conditioning"
+    },
+    "2c70b516339": {
+        "name": "gentian root extract",
+        "cosdna_name": "gentiana lutea root extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "72968-42-4",
+        "description": "Skin Conditioning"
+    },
+    "728bdb14899": {
+        "name": "wormwood extract",
+        "cosdna_name": "artemisia absinthium extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84929-19-1",
+        "description": "Skin Conditioning"
+    },
+    "cec7c418286": {
+        "name": "purslane extract",
+        "cosdna_name": "portulaca oleracea extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90083-07-1",
+        "description": "Skin Conditioning"
+    },
+    "3838f519668": {
+        "name": "sugar maple extract",
+        "cosdna_name": "acer saccharum extract",
+        "aliases": [
+            "sugar maple extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "91770-22-8",
+        "description": "Keratolytic"
+    },
+    "0540ce6447": {
+        "name": "peg-6 caprylic/capric glycerides",
+        "cosdna_name": "peg-6 caprylic/capric glycerides",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emulsifier; Emollient, Synthetic ester"
+    },
+    "70c90c344": {
+        "name": "sodium citrate",
+        "cosdna_name": "sodium citrate",
+        "aliases": [
+            "sodium acid citrate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68-04-2",
+        "description": "pH Adjusters, Antioxidant"
+    },
+    "0f31c41511": {
+        "name": "copper sulfate",
+        "cosdna_name": "copper sulfate",
+        "aliases": [
+            "cupric sulfate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7758-98-7",
+        "description": "Skin conditioning"
+    },
+    "34d2e716358": {
+        "name": "ginkgo biloba leaf extract",
+        "cosdna_name": "ginkgo biloba leaf extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90045-36-6",
+        "description": "Skin Conditioning"
+    },
+    "9e9cef1225": {
+        "name": "fructo-oligosaccharides",
+        "cosdna_name": "fructo-oligosaccharides",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "4775d7315": {
+        "name": "propylene glycol",
+        "cosdna_name": "propylene glycol",
+        "aliases": [
+            "monopropylene glycol",
+            "propyl glycol",
+            "1,2-dihydroxypropane",
+            "1,2-propanediol",
+            "propane-1,2-diol",
+            "1,2-propylene glycol"
+        ],
+        "mass": 76.09,
+        "hlb": null,
+        "cas_no": "57-55-6",
+        "description": "Solvent; Humectant; Viscosity Controlling"
+    },
+    "d5fb0c2887": {
+        "name": "cetrimonium bromide",
+        "cosdna_name": "cetrimonium bromide",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "57-09-0",
+        "description": "Preservative; Emulsifier"
+    },
+    "b23911940": {
+        "name": "sodium laureth sulfate",
+        "cosdna_name": "sles",
+        "aliases": [
+            "sodium lauryl ether sulphate",
+            "sodium laureth sulfate",
+            "sodium lauryl ether sulfate",
+            "ethoxylated c12-sulfate",
+            "sodium laureth-2 sulfate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1335-72-4",
+        "description": "Surfactant, Emulsifier"
+    },
+    "ffdf8e356": {
+        "name": "sorbitol",
+        "cosdna_name": "sorbitol",
+        "aliases": [
+            "d-glucitol"
+        ],
+        "mass": 182.17,
+        "hlb": null,
+        "cas_no": "50-70-4",
+        "description": "Humectant; Plasticizer; Skin conditioning"
+    },
+    "248af88091": {
+        "name": "laureth-4 carboxylic acid",
+        "cosdna_name": "laureth-4 carboxylic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "20858-25-7",
+        "description": "Surfactant"
+    },
+    "60de5d6467": {
+        "name": "ethylhexylglycerin",
+        "cosdna_name": "ethylhexylglycerin",
+        "aliases": [
+            "octoxyglycerin"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "70445-33-9",
+        "description": "Moisturizer"
+    },
+    "1827f86633": {
+        "name": "acrylates/c10-30 alkyl acrylate crosspolymer",
+        "cosdna_name": "acrylates/c10-30 alkyl acrylate crosspolymer",
+        "aliases": [
+            "carbopol 1342 polymer",
+            "pemulen tr-1",
+            "pemulen tr-2"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emulsion Stabilizer; Film-forming agent; Thickener"
+    },
+    "fc0e7e438": {
+        "name": "sodium benzoate",
+        "cosdna_name": "sodium benzoate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "532-32-1",
+        "description": "Preservative"
+    },
+    "297fc0888": {
+        "name": "menthol",
+        "cosdna_name": "menthol",
+        "aliases": [
+            "l-menthol",
+            "dl-menthol"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "89-78-1",
+        "description": "Fragrance, Astringent"
+    },
+    "5f1bc32365": {
+        "name": "polyquaternium-39",
+        "cosdna_name": "polyquaternium-39",
+        "aliases": [
+            "merquat 3330"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25136-75-8",
+        "description": "Antistatic"
+    },
+    "ec774810923": {
+        "name": "charcoal powder",
+        "cosdna_name": "charcoal powder",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8021-99-6",
+        "description": "Absorbent; Pigment; Abrasive; Opacifying agent"
+    },
+    "f981541037": {
+        "name": "ethylhexyl palmitate",
+        "cosdna_name": "ethylhexyl palmitate",
+        "aliases": [
+            "octyl palmitate",
+            "hexadecanoic acid 2-ethylhexyl ester"
+        ],
+        "mass": 368.64,
+        "hlb": null,
+        "cas_no": "29806-73-3",
+        "description": "Solvent, Fragrance, Synthetic ester, Emollient"
+    },
+    "509e461105": {
+        "name": "dimethicone crosspolymer",
+        "cosdna_name": "dimethicone crosspolymer",
+        "aliases": [
+            "dimethicone crosspolymer-3"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Viscosity Controlling; Emulsion Stabilizer; HAIR FIXING"
+    },
+    "d6b122816": {
+        "name": "ascorbyl glucoside",
+        "cosdna_name": "ascorbyl glucoside",
+        "aliases": [
+            "ascorbic acid 2-glucoside",
+            "aa2g"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "129499-78-1",
+        "description": "Antioxidant, Whitening"
+    },
+    "91c5201209": {
+        "name": "cyclohexasiloxane",
+        "cosdna_name": "cyclohexasiloxane",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "540-97-6",
+        "description": "Emollient; Solvent; Skin and hair conditioning"
+    },
+    "51ab9d10410": {
+        "name": "hydroxyethylpiperazine ethane sulfonic acid",
+        "cosdna_name": "hydroxyethylpiperazine ethane sulfonic acid",
+        "aliases": [
+            "hepes"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7365-45-9",
+        "description": "Keratolytic, Exfoliator"
+    },
+    "0966a31886": {
+        "name": "lauroyl lysine",
+        "cosdna_name": "lauroyl lysine",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "52315-75-0",
+        "description": "Skin and hair conditioning; Viscosity Controlling"
+    },
+    "8cf1fd20982": {
+        "name": "acrylonitrile/methyl methacrylate/vinylidene chloride copolymer",
+        "cosdna_name": "acrylonitrile/methyl methacrylate/vinylidene chloride copolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25214-39-5",
+        "description": "Not Reported"
+    },
+    "26af7a10370": {
+        "name": "polysilicone-11",
+        "cosdna_name": "polysilicone-11",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "63394-02-5",
+        "description": "Film-forming agent"
+    },
+    "51abfb10727": {
+        "name": "adenosine",
+        "cosdna_name": "adenosine",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "58-61-7",
+        "description": ""
+    },
+    "c4e35316703": {
+        "name": "hydrolyzed hyaluronic acid",
+        "cosdna_name": "hydrolyzed hyaluronic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Hair Conditioning; Humectant; Skin Conditioning"
+    },
+    "99e549231": {
+        "name": "limonene",
+        "cosdna_name": "l-limonene",
+        "aliases": [
+            "d-limonene",
+            "limonene"
+        ],
+        "mass": 136.24,
+        "hlb": null,
+        "cas_no": "138-86-3",
+        "description": "Solvent, Fragrance"
+    },
+    "bae5801226": {
+        "name": "isobutane",
+        "cosdna_name": "methylpropane",
+        "aliases": [
+            "2-methylpropane",
+            "isobutane"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "75-28-5",
+        "description": "Propellant; Coolant"
+    },
+    "d6e9bc20784": {
+        "name": "orange peel oil",
+        "cosdna_name": "citrus aurantium dulcis peel oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8008-57-9",
+        "description": "Fragrance; Skin conditioning"
+    },
+    "c8edf419833": {
+        "name": "lemon peel oil",
+        "cosdna_name": "citrus medica limonum peel oil",
+        "aliases": [
+            "lemon peel oil",
+            "citrus limon peel oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8008-56-8",
+        "description": "Masking; Skin Conditioning"
+    },
+    "60baad6494": {
+        "name": "citral",
+        "cosdna_name": "citral",
+        "aliases": [
+            "lemonal"
+        ],
+        "mass": 152.24,
+        "hlb": null,
+        "cas_no": "5392-40-5",
+        "description": "Fragrance"
+    },
+    "5672db11403": {
+        "name": "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
+        "cosdna_name": "pentaerythrityl tetra-di-t-butyl hydroxyhydrocinnamate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "6683-19-8",
+        "description": "Antioxidant"
+    },
+    "e69afd66": {
+        "name": "benzoyl peroxide",
+        "cosdna_name": "benzoyl peroxide",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "94-36-0",
+        "description": "OXIDISING"
+    },
+    "2b89f820675": {
+        "name": "carbomer homopolymer type b",
+        "cosdna_name": "carbomer homopolymer type b",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Hydrophilic Thickener; Emulsion Stabilizer; Suspending agent; Gel Forming"
+    },
+    "77a8961800": {
+        "name": "hydroxypropyl methylcellulose",
+        "cosdna_name": "hydroxypropyl methylcellulose",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9004-65-3",
+        "description": "Binding agent; Emulsion Stabilizer; Film-forming agent; Hydrophilic Thickener; Viscosity Controlling"
+    },
+    "ce2c2f67": {
+        "name": "benzyl alcohol",
+        "cosdna_name": "benzyl alcohol",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "100-51-6",
+        "description": "Preservative, Solvent, Fragrance"
+    },
+    "2a226a1012": {
+        "name": "laureth-4",
+        "cosdna_name": "laureth-4",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 9.7,
+        "cas_no": "5274-68-0",
+        "description": "Antistatic; Emulsifier; Surfactant"
+    },
+    "859a532773": {
+        "name": "tetrahydroxypropyl ethylenediamine",
+        "cosdna_name": "tetrahydroxypropyl ethylenediamine",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "102-60-3",
+        "description": "Chelator"
+    },
+    "ef33796501": {
+        "name": "ammonium acryloyldimethyltaurate/vp copolymer",
+        "cosdna_name": "ammonium acryloyldimethyltaurate/vp copolymer",
+        "aliases": [
+            "aristoflex avc"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Surfactant; Hydrophilic Viscosity Increasing Agent, use in pH4~9 product"
+    },
+    "d0c02c273": {
+        "name": "nylon-12",
+        "cosdna_name": "nylon-12",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25038-74-8",
+        "description": "Bulking agent, Opacifying agent; Viscosity Controlling"
+    },
+    "a5ad9510287": {
+        "name": "peg-12 dimethicone",
+        "cosdna_name": "peg-12 dimethicone",
+        "aliases": [
+            "silsurf d212cg",
+            "dow corning 5329",
+            "dc 5329"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient; Water-soluble Silicone Emulsifier"
+    },
+    "3bf28a485": {
+        "name": "vitamin e",
+        "cosdna_name": "tocopherols",
+        "aliases": [
+            "tocopherol",
+            "vit e",
+            "vitamin e",
+            "\u03b1-tocopherol",
+            "alpha-tocopherol"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "59-02-9",
+        "description": "Antioxidant"
+    },
+    "0cd5c11135": {
+        "name": "pentylene glycol",
+        "cosdna_name": "pentylene glycol",
+        "aliases": [
+            ""
+        ],
+        "mass": 104.15,
+        "hlb": null,
+        "cas_no": "5343-92-0",
+        "description": "Low molecular weight humectant; Emollient; Antimicrobial"
+    },
+    "c69b0a991": {
+        "name": "laureth-23",
+        "cosdna_name": "laureth-23",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 16.9,
+        "cas_no": "9002-92-0",
+        "description": "Surfactant; Cleaning agent; Emulsifier"
+    },
+    "8965401782": {
+        "name": "hydrolyzed wheat protein",
+        "cosdna_name": "hydrolyzed wheat protein",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "70084-87-6",
+        "description": "Antistatic"
+    },
+    "4c6067424": {
+        "name": "methylparaben",
+        "cosdna_name": "methyl parahydroxybenzoate",
+        "aliases": [
+            "methylparaben",
+            "methyl paraben",
+            "methyl p-hydroxybenzoate",
+            "nipagin m",
+            "methyl hydroxybenzoate"
+        ],
+        "mass": 152.15,
+        "hlb": null,
+        "cas_no": "99-76-3",
+        "description": "Preservatives, Antimicrobial"
+    },
+    "2bba59316": {
+        "name": "propylparaben",
+        "cosdna_name": "propylparaben",
+        "aliases": [
+            "propyl paraben",
+            "propyl parahydroxybenzoate",
+            "propyl p-hydroxybenzoate",
+            "propyl 4-hydroxybenzoate",
+            "nipasol m"
+        ],
+        "mass": 180.2,
+        "hlb": null,
+        "cas_no": "94-13-3",
+        "description": "Preservative"
+    },
+    "0dec90429": {
+        "name": "ethylparaben",
+        "cosdna_name": "ethyl paraben",
+        "aliases": [
+            "ethylparaben",
+            "ethyl p-hydroxy-benzoate"
+        ],
+        "mass": 166.17,
+        "hlb": null,
+        "cas_no": "120-47-8",
+        "description": "Preservative"
+    },
+    "cc75461167": {
+        "name": "polyacrylamide",
+        "cosdna_name": "polyacrylamide",
+        "aliases": [
+            "polyacryamide"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9003-05-8",
+        "description": "Thickener; Binding agent; Film-forming agent; Antistatic."
+    },
+    "f124da42": {
+        "name": "allantoin",
+        "cosdna_name": "allantoin",
+        "aliases": [
+            "glyoxyldiureide",
+            "allantion"
+        ],
+        "mass": 158.12,
+        "hlb": null,
+        "cas_no": "97-59-6",
+        "description": "Skin conditioning; Skin Protecting; Soothing"
+    },
+    "511c561003": {
+        "name": "bht",
+        "cosdna_name": "dibutyl hydroxy toluene",
+        "aliases": [
+            "di-butyl hydroxy toluene",
+            "bht",
+            "dibutylhydroxytoluene",
+            "butylated hydroxytoluene"
+        ],
+        "mass": 220.36,
+        "hlb": null,
+        "cas_no": "128-37-0",
+        "description": "Antioxidant"
+    },
+    "ad5da0365": {
+        "name": "sunflower oil",
+        "cosdna_name": "sunflower oil",
+        "aliases": [
+            "helianthus annuus oil",
+            "sunflower seed oil",
+            "helianthus annuus seed oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8001-21-6",
+        "description": "Skin conditioning"
+    },
+    "c54c1c1168": {
+        "name": "c13-14 isoparaffin",
+        "cosdna_name": "c13-14 isoparaffin",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "246538-79-4",
+        "description": "Emollient; Solvent"
+    },
+    "62e334964": {
+        "name": "polysorbate 20",
+        "cosdna_name": "tween 20",
+        "aliases": [
+            "poe (20) sorbitan monolaurate",
+            "polysorbate 20",
+            "atmer 110",
+            "peg(20)sorbitan monolaurate",
+            "alkest tw 20"
+        ],
+        "mass": 1227.54,
+        "hlb": 16.7,
+        "cas_no": "9005-64-5",
+        "description": "Surfactant, Emulsifier"
+    },
+    "3665ec1910": {
+        "name": "magnesium aspartate",
+        "cosdna_name": "magnesium aspartate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1187-91-3",
+        "description": "Skin conditioning"
+    },
+    "affbc2955": {
+        "name": "alpha-bisabolol",
+        "cosdna_name": "alpha bisabolol",
+        "aliases": [
+            "bisabolol",
+            "\u03b1-bisabolol",
+            "a-bisabolol",
+            "1-methyl-4-(1,5-dimethyl-1-hydroxyhex-4(5)-enyl)cyclohexene-1",
+            "levomenol"
+        ],
+        "mass": 222.37,
+        "hlb": null,
+        "cas_no": "515-69-5",
+        "description": "Anti-inflammatory"
+    },
+    "79f3321065": {
+        "name": "retinol",
+        "cosdna_name": "retinol",
+        "aliases": [
+            ""
+        ],
+        "mass": 286.45,
+        "hlb": null,
+        "cas_no": "11103-57-4",
+        "description": "\u808c\u819a\u8abf\u7406\u5291"
+    },
+    "2a7b7220519": {
+        "name": "hydroxyphenyl propamidobenzoic acid",
+        "cosdna_name": "hydroxyphenyl propamidobenzoic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "697235-49-7",
+        "description": "Skin conditioning"
+    },
+    "8aa6731882": {
+        "name": "laureth-7",
+        "cosdna_name": "laureth-7",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 12.5,
+        "cas_no": "3055-97-8",
+        "description": "Emulsifier; Surfactant"
+    },
+    "d9943d1510": {
+        "name": "copper gluconate",
+        "cosdna_name": "copper gluconate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "527-09-3",
+        "description": "Skin conditioning / Skin protecting"
+    },
+    "057e85992": {
+        "name": "yellow 5",
+        "cosdna_name": "fd&c yellow no.5",
+        "aliases": [
+            "food yellow 4",
+            "ci 19140",
+            "tartrazine",
+            "fd&c yellow #5",
+            "yellow 5"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1934-21-0",
+        "description": "Pigment"
+    },
+    "3a1e2314735": {
+        "name": "aloe barbadensis leaf juice",
+        "cosdna_name": "aloe barbadensis leaf juice",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85507-69-3",
+        "description": "Skin Conditioning"
+    },
+    "10c2ee200": {
+        "name": "isopropyl palmitate",
+        "cosdna_name": "isopropyl palmitate",
+        "aliases": [
+            "ipp"
+        ],
+        "mass": 298.5,
+        "hlb": null,
+        "cas_no": "142-91-6",
+        "description": "Solvent, Fragrance, Synthetic ester, Moisturizer"
+    },
+    "e79fcd168": {
+        "name": "glyceryl stearate",
+        "cosdna_name": "glyceryl stearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 3.8,
+        "cas_no": "123-94-4",
+        "description": "Emollient, Emulsifier"
+    },
+    "cac655104": {
+        "name": "cetyl alcohol",
+        "cosdna_name": "cetanol",
+        "aliases": [
+            "1-hexadecanol",
+            "palmityl alcohol",
+            "hexadecyl alcohol",
+            "palmitoryl alcohol",
+            "c16 alcohol",
+            "cetyl alcohol"
+        ],
+        "mass": 242.44,
+        "hlb": null,
+        "cas_no": "36653-82-4",
+        "description": "Emollient; Surfactant; Foam Booster; Emulsion Stabilizer; Thickener"
+    },
+    "ee1a4413354": {
+        "name": "senna seed extract",
+        "cosdna_name": "cassia angustifolia seed extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85187-05-9",
+        "description": "Skin conditioning"
+    },
+    "b081f0360": {
+        "name": "stearic acid",
+        "cosdna_name": "stearic acid",
+        "aliases": [
+            "octadecanoic acid",
+            "c18",
+            "hexyldecyl stearate"
+        ],
+        "mass": 284.478,
+        "hlb": null,
+        "cas_no": "1957-11-4",
+        "description": "Emulsifier; Cleaning agent; Emulsion Stabilizer; Surfactant; Refatting; Lipophilic Thickener"
+    },
+    "f5650f208": {
+        "name": "jojoba oil",
+        "cosdna_name": "buxus chinensis oil",
+        "aliases": [
+            "boxus chinensis oil",
+            "jojoba oil",
+            "oleum simmondsiae californicae",
+            "jojoba olaj",
+            "jojoba seed oil",
+            "simmondsia chinensis seed oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Moisturizer, Emollient"
+    },
+    "b2e310338": {
+        "name": "shea butter",
+        "cosdna_name": "shea butter",
+        "aliases": [
+            "butyrospermum parkii",
+            "vitellaria paradoxa",
+            "vitellaria nilotica",
+            "shea nut butter",
+            "butyrospermum parkii butter",
+            "butyrospermum parkii fruit"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68920-03-6",
+        "description": "Moisturizer, Emollient"
+    },
+    "898bf618389": {
+        "name": "propolis extract",
+        "cosdna_name": "propolis extract",
+        "aliases": [
+            "bee propolis extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85665-41-4",
+        "description": "Skin Conditioning"
+    },
+    "64860215406": {
+        "name": "pennywort extract",
+        "cosdna_name": "centella asiatica extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84696-21-9",
+        "description": "Cleansing; Skin Conditioning; Smoothing; Soothing; Tonic"
+    },
+    "3fd6af16120": {
+        "name": "horsetail extract",
+        "cosdna_name": "equisetum arvense extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "71011-23-9",
+        "description": "Astringent; Emollient; Soothing; Tonic"
+    },
+    "3ff58516346": {
+        "name": "geranium extract",
+        "cosdna_name": "geranium maculatum extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84650-10-2",
+        "description": "Tonic"
+    },
+    "f8711b721": {
+        "name": "dandelion",
+        "cosdna_name": "dandelion",
+        "aliases": [
+            "taraxacum officinale"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "fe88f2158": {
+        "name": "ethanol",
+        "cosdna_name": "alcohol",
+        "aliases": [
+            "ethanol",
+            "grain alcohol",
+            "ethyl alcohol"
+        ],
+        "mass": 46.07,
+        "hlb": null,
+        "cas_no": "64-17-5",
+        "description": "Solvent"
+    },
+    "cebeb8225": {
+        "name": "lecithin",
+        "cosdna_name": "lecithine",
+        "aliases": [
+            "phosphatidylcholine",
+            "lecithin",
+            "lecithins",
+            "soy lecithin"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8002-43-5",
+        "description": "Emulsifier; Emollient; Skin conditioning"
+    },
+    "5a14ff1845": {
+        "name": "lactose",
+        "cosdna_name": "lactose",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "63-42-3",
+        "description": "Humectant"
+    },
+    "3425bd1361": {
+        "name": "c12-15 alkyl benzoate",
+        "cosdna_name": "c12-15 alkyl benzoate",
+        "aliases": [
+            "c12-c15 alkyl benzoate",
+            "alkyl (c12-c15) benzoate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68411-27-8",
+        "description": "Emollient"
+    },
+    "a275e510403": {
+        "name": "cetearyl ethylhexanoate",
+        "cosdna_name": "cetearyl ethylhexanoate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient"
+    },
+    "919bfd8": {
+        "name": "peg-100 stearate",
+        "cosdna_name": "peg-100 stearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 18.8,
+        "cas_no": "9004-99-3",
+        "description": "Surfactant(Cleaning agent)"
+    },
+    "b375f32251": {
+        "name": "peg-8",
+        "cosdna_name": "peg-8",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "5117-19-1",
+        "description": "Humectant; Solvent"
+    },
+    "5ef6ef467": {
+        "name": "stearyl alcohol",
+        "cosdna_name": "stearyl alcohol",
+        "aliases": [
+            "1-octadecanol",
+            "octadecan-1-ol"
+        ],
+        "mass": 270.49,
+        "hlb": null,
+        "cas_no": "112-92-5",
+        "description": "Emulsion Stabilizer; Emollient; Foam Booster; Thickener"
+    },
+    "fada5a3145": {
+        "name": "tromethamine",
+        "cosdna_name": "tromethamine",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "77-86-1",
+        "description": "pH Adjusters"
+    },
+    "f8701b90": {
+        "name": "carbomer",
+        "cosdna_name": "carbomer",
+        "aliases": [
+            "carboxypolymethylene",
+            "carbopol",
+            "cabomer"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9007-16-3",
+        "description": "Hydrophilic Thickener; Emulsion Stabilizer; Suspending agent; Gel Forming"
+    },
+    "35cc31879": {
+        "name": "isopropyl myristate",
+        "cosdna_name": "isopropyl myristate",
+        "aliases": [
+            "ipm"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "110-27-0",
+        "description": "Solvent, Synthetic ester"
+    },
+    "035888448": {
+        "name": "chlorhexidine digluconate",
+        "cosdna_name": "chlorhexidine digluconate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "18472-51-0",
+        "description": "Preservative"
+    },
+    "de022d1499": {
+        "name": "coco-glucoside",
+        "cosdna_name": "coco-glucoside",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Nonionic Surfactant; Cleaning agent"
+    },
+    "ab8ccd20544": {
+        "name": "sodium lauroyl methyl isethionate",
+        "cosdna_name": "sodium lauroyl methyl isethionate",
+        "aliases": [
+            ""
+        ],
+        "mass": 344.44,
+        "hlb": null,
+        "cas_no": "928663-45-0",
+        "description": "Cleaning agent; Surfactant"
+    },
+    "3360581494": {
+        "name": "cocamidopropyl hydroxysultaine",
+        "cosdna_name": "cocamidopropyl hydroxysultaine",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68139-30-0",
+        "description": "Surfactant(Cleaning agent; Foam Booster); Antistatic; Hydrophilic Viscosity Increasing Agent"
+    },
+    "9a68372633": {
+        "name": "sodium methyl oleoyl taurate",
+        "cosdna_name": "sodium methyl oleoyl taurate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "137-20-2",
+        "description": "Antistatic; Surfactant"
+    },
+    "d8088c14734": {
+        "name": "aloe barbadensis leaf extract",
+        "cosdna_name": "aloe barbadensis leaf extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85507-69-3",
+        "description": "Emollient; Humectant; Oral Care; Skin Conditioning"
+    },
+    "51cddd10661": {
+        "name": "glycolipids",
+        "cosdna_name": "glycolipids",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "0287c3229": {
+        "name": "linoleic acid",
+        "cosdna_name": "linoleic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": 280.45,
+        "hlb": null,
+        "cas_no": "60-33-3",
+        "description": "Cleaning agent; Antistatic; Emollient; Skin conditioning"
+    },
+    "ba78081902": {
+        "name": "linolenic acid",
+        "cosdna_name": "linolenic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "463-40-1",
+        "description": "Antistatic, Emollient"
+    },
+    "0187f210178": {
+        "name": "lauryl glucoside",
+        "cosdna_name": "lauryl glucoside",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "27836-64-2",
+        "description": "Nonionic Surfactant; Cleaning agent"
+    },
+    "7202f515719": {
+        "name": "cantaloupe fruit extract",
+        "cosdna_name": "cucumis melo cantalupensis fruit extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90063-94-8",
+        "description": "Astringent; Skin Conditioning"
+    },
+    "41831414303": {
+        "name": "marula seed oil",
+        "cosdna_name": "sclerocarya birrea seed oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Hair conditioning; Humectant"
+    },
+    "8e16cb1047": {
+        "name": "dipotassium glycyrrhizate",
+        "cosdna_name": "dipotassium glycyrrhizinate",
+        "aliases": [
+            "di-potassium glycyrrhizinate",
+            "dipotassium glycyrrhizate",
+            "k2"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68797-35-3",
+        "description": "Anti-inflammatory, Anti-allergic"
+    },
+    "8032ba2352": {
+        "name": "polylysine",
+        "cosdna_name": "polylysine",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25104-18-1",
+        "description": "Antimicrobial, extract from bacterial fermentation."
+    },
+    "af81356377": {
+        "name": "niacinamide",
+        "cosdna_name": "nicotinamide",
+        "aliases": [
+            "nicotinic acid amide",
+            "niacinamide"
+        ],
+        "mass": 122.12,
+        "hlb": null,
+        "cas_no": "98-92-0",
+        "description": "Skin conditioning - Smoothing"
+    },
+    "77cb98422": {
+        "name": "adenosine triphosphate",
+        "cosdna_name": "adenosine triphosphate",
+        "aliases": [
+            "atp",
+            "adenosine-5'-triphosphate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "56-65-5",
+        "description": "Skin Conditioning"
+    },
+    "da1eca14848": {
+        "name": "chamomile flower extract",
+        "cosdna_name": "anthemis nobilis flower extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84649-86-5",
+        "description": "Masking; Perfuming; Skin Conditioning"
+    },
+    "3fac9214872": {
+        "name": "burdock root extract",
+        "cosdna_name": "arctium lappa root extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84012-13-5",
+        "description": "Skin Conditioning"
+    },
+    "f1e7ec14350": {
+        "name": "hydrolyzed jojoba esters",
+        "cosdna_name": "hydrolyzed jojoba esters",
+        "aliases": [
+            "hydrolyzed jojoba ester"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Film-forming agent; Skin and hair conditioning"
+    },
+    "b23fa41780": {
+        "name": "hydrolyzed vegetable protein",
+        "cosdna_name": "hydrolyzed vegetable protein",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "100209-45-8",
+        "description": "Antistatic"
+    },
+    "dfa882349": {
+        "name": "sodium pca",
+        "cosdna_name": "sodium pca",
+        "aliases": [
+            "na-pca",
+            "napca",
+            "pca-na",
+            "sodium pyrrolidone carboxylic acid",
+            "sodium pyrrolidone carboxylate",
+            "sodium l-2-pyrrolidone-5-carboxylate",
+            "sodium dl-pyrrolidone carboxylate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "28874-51-3",
+        "description": "Antistatic, Moisturizer"
+    },
+    "6b1f88346": {
+        "name": "sodium hyaluronate",
+        "cosdna_name": "sodium hyaluronate",
+        "aliases": [
+            "hyaluronic acid sodium salt"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9067-32-7",
+        "description": "Humectant; Skin conditioning"
+    },
+    "a11c14935": {
+        "name": "sodium chondroitin sulfate",
+        "cosdna_name": "sodium chondroitin sulfate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9007-28-7",
+        "description": "Moisturizer"
+    },
+    "a9b3846414": {
+        "name": "ceramide 3",
+        "cosdna_name": "ceramide 3",
+        "aliases": [
+            "ceramide iii",
+            "ceramide np"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "100403-19-8",
+        "description": "Moisturizer"
+    },
+    "cd82ce10488": {
+        "name": "ceramide 6 ii",
+        "cosdna_name": "ceramide 6 ii",
+        "aliases": [
+            "ceramide ap",
+            "1,3,4-octadecanetriol",
+            "2-(2-hydroxy) stearamide"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "100403-19-8",
+        "description": "Skin and hair conditioning, Skin protecting"
+    },
+    "1bf93015409": {
+        "name": "ceramide 1",
+        "cosdna_name": "ceramide 1",
+        "aliases": [
+            "ceramide eos"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "100403-19-8",
+        "description": "Hair Conditioning; Skin Conditioning"
+    },
+    "cb1ca71123": {
+        "name": "phytosphingosine",
+        "cosdna_name": "phytosphingosine",
+        "aliases": [
+            ""
+        ],
+        "mass": 317.5,
+        "hlb": null,
+        "cas_no": "13552-11-9",
+        "description": "Skin and hair conditioning"
+    },
+    "d0c3f7112": {
+        "name": "cholesterol",
+        "cosdna_name": "cholesterol",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "57-88-5",
+        "description": "Viscosity Control, Emollient, Emulsifier"
+    },
+    "87dba96374": {
+        "name": "vitamin c tetraisopalmitate",
+        "cosdna_name": "vc-ip",
+        "aliases": [
+            "tetrahexyldecyl ascorbate",
+            "ascorbyl tetraisopalmitate",
+            "vitamin c tetraisopalmitate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "183476-82-6",
+        "description": "Antioxidant"
+    },
+    "5440721010": {
+        "name": "oleth-10",
+        "cosdna_name": "oleth-10",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 12.4,
+        "cas_no": "9004-98-2",
+        "description": "Emulsifier; Surfactant"
+    },
+    "0bb1f67258": {
+        "name": "dea-oleth-10 phosphate",
+        "cosdna_name": "dea-oleth-10 phosphate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "58855-63-3",
+        "description": "Emulsifier; Surfactant"
+    },
+    "4ea5529516": {
+        "name": "sodium lauroyl lactylate",
+        "cosdna_name": "sodium lauroyl lactylate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "13557-75-0",
+        "description": "Emulsifier"
+    },
+    "1ee2367042": {
+        "name": "caprylyl glycol",
+        "cosdna_name": "caprylyl glycol",
+        "aliases": [
+            "capryl glycol",
+            "1,2-octanediol",
+            "1,2-dihydroxyoctane",
+            "1,2-octylene glycol"
+        ],
+        "mass": 146.227,
+        "hlb": null,
+        "cas_no": "1117-86-8",
+        "description": "Emollient; Humectant"
+    },
+    "f31b711196": {
+        "name": "hexylene glycol",
+        "cosdna_name": "hexylene glycol",
+        "aliases": [
+            "2-methyl-2,4-pentanediol"
+        ],
+        "mass": 118.17,
+        "hlb": null,
+        "cas_no": "107-41-5",
+        "description": "Emulsifier; Surfactant; Solvent; Emulsion Stabilizer\n\nThe CIR concluded that Hexylene Glycol are safe for use in cosmetics and personal care products."
+    },
+    "53026b378": {
+        "name": "trisodium edta",
+        "cosdna_name": "trisodium edta",
+        "aliases": [
+            "edta-3na"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "150-38-9",
+        "description": "Stabilizing agent; Chelator"
+    },
+    "569dd0557": {
+        "name": "acetyl glucosamine",
+        "cosdna_name": "acetyl glucosamine",
+        "aliases": [
+            "n-acetyl glucosamine",
+            "nag"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "10036-64-3",
+        "description": "Moisturizer"
+    },
+    "7e4b55302": {
+        "name": "phospholipids",
+        "cosdna_name": "phospholipids",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "123456-35-0",
+        "description": "Moisturizer, Emollient"
+    },
+    "6fbf8714126": {
+        "name": "punarnava root extract",
+        "cosdna_name": "boerhavia diffusa root extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin Protecting"
+    },
+    "25ec3119984": {
+        "name": "licorice root extract",
+        "cosdna_name": "glycyrrhiza glabra root extract",
+        "aliases": [
+            "licorice root extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84775-66-6",
+        "description": "Bleaching; Emollient; Perfuming; Skin Conditioning; Smoothing; Soothing"
+    },
+    "1a8f4f11335": {
+        "name": "egcg",
+        "cosdna_name": "epigallocatechin gallate",
+        "aliases": [
+            "egcg"
+        ],
+        "mass": 458.372,
+        "hlb": null,
+        "cas_no": "989-51-5",
+        "description": "Antioxidant"
+    },
+    "c2f9241045": {
+        "name": "beta-glucan",
+        "cosdna_name": "\u03b2-glucans",
+        "aliases": [
+            "1,3-glucan",
+            "1,6-glucan",
+            "beta-glucan",
+            "\u03b2-glucan"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "160872-27-5",
+        "description": "Anti-allergic"
+    },
+    "7b3b1910625": {
+        "name": "carnosine",
+        "cosdna_name": "carnosine",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "305-84-0",
+        "description": "Hydrophilic Antioxidant"
+    },
+    "325b6910974": {
+        "name": "genistein",
+        "cosdna_name": "genistein",
+        "aliases": [
+            ""
+        ],
+        "mass": 270.24,
+        "hlb": null,
+        "cas_no": "446-72-0",
+        "description": "Antioxidant"
+    },
+    "15529e60": {
+        "name": "azelaic acid",
+        "cosdna_name": "azelaic acid",
+        "aliases": [
+            "azeleic acid",
+            "nonanedioic acid"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "123-99-9",
+        "description": "Whitening"
+    },
+    "91717f1945": {
+        "name": "methyl glucose sesquistearate",
+        "cosdna_name": "methyl glucose sesquistearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 6.6,
+        "cas_no": "68936-95-8",
+        "description": "Emollient; Emulsifier"
+    },
+    "f83898102": {
+        "name": "cetearyl alcohol",
+        "cosdna_name": "cetearyl alcohol",
+        "aliases": [
+            "cetyl stearyl alcohol",
+            "cetostearyl alcohol"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8005-44-5",
+        "description": "Surfactant; Emulsifier; Hydrophilic Thickener"
+    },
+    "7cef8d335": {
+        "name": "sclerotium gum",
+        "cosdna_name": "sclerotium gum",
+        "aliases": [
+            "amigel",
+            "sclerotium rolfssii gum"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "39464-87-4",
+        "description": "Emulsion Stabilizer; Thickener."
+    },
+    "bd86141140": {
+        "name": "water",
+        "cosdna_name": "water purified",
+        "aliases": [
+            "pure water",
+            "purified water",
+            "purified aqua"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "2d842c182": {
+        "name": "hyaluronic acid",
+        "cosdna_name": "hyaluronan",
+        "aliases": [
+            "hyaluronate",
+            "hyaluronic acid",
+            "biohyaluronic acid"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9004-61-9",
+        "description": "Moisturizer"
+    },
+    "ba1a66971": {
+        "name": "polyglyceryl-3-diisostearate",
+        "cosdna_name": "polyglyceryl-3-diisostearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "63705-03-3",
+        "description": "Emulsifier"
+    },
+    "ef65162402": {
+        "name": "potassium phosphate",
+        "cosdna_name": "potassium phosphate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7778-77-0",
+        "description": "Buffering agent"
+    },
+    "1f1eee1601": {
+        "name": "dipotassium phosphate",
+        "cosdna_name": "dipotassium phosphate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7758-11-4",
+        "description": "Buffering agent"
+    },
+    "4a06d62021": {
+        "name": "octyldodecyl neopentanoate",
+        "cosdna_name": "octyldodecyl neopentanoate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient"
+    },
+    "09e04010431": {
+        "name": "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer",
+        "cosdna_name": "hydroxyethyl acrylate/sodium acryloyldimethyl taurate copolymer",
+        "aliases": [
+            "sodium hydroxyethyl acrylate/acryloyldimethyl taurate copolymer"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "111286-86-3",
+        "description": "Emulsion Stabilizer; Opacifying agent; Suspending agent; Hydrophilic Thickener"
+    },
+    "b35a542350": {
+        "name": "polyisobutene",
+        "cosdna_name": "polyisobutene",
+        "aliases": [
+            "pib"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9003-27-4",
+        "description": "Binding agent; Film-forming agent; Lipophilic Thickener; Viscosity Controlling"
+    },
+    "6c023b20725": {
+        "name": "peg-7 trimethylolpropane coconut ether",
+        "cosdna_name": "peg-7 trimethylolpropane coconut ether",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emulsifier; Surfactant"
+    },
+    "36b237212": {
+        "name": "lactic acid",
+        "cosdna_name": "lactic acid",
+        "aliases": [
+            "2-hydroxypropanoic acid",
+            "milk acid"
+        ],
+        "mass": 90.08,
+        "hlb": null,
+        "cas_no": "50-21-5",
+        "description": "Buffering agent; Humectant; Skin conditioning; Astringent"
+    },
+    "e002648465": {
+        "name": "oleth-3 phosphate",
+        "cosdna_name": "oleth-3 phosphate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "39464-69-2",
+        "description": "Surfactant"
+    },
+    "6db25d431": {
+        "name": "iodopropynyl butylcarbamate",
+        "cosdna_name": "iodopropynyl butylcarbamate",
+        "aliases": [
+            "3-iodo-2-propynyl butyl carbamate",
+            "ipbc",
+            "biodocarb c450"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "55406-53-6",
+        "description": "Antimicrobial; Preservative"
+    },
+    "1a5790961": {
+        "name": "octyl stearate",
+        "cosdna_name": "octyl stearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Solvent, Synthetic ester"
+    },
+    "20ad5010427": {
+        "name": "triethoxycaprylylsilane",
+        "cosdna_name": "triethoxycaprylylsilane",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "2943-75-1",
+        "description": "Binding agent"
+    },
+    "9a5625165": {
+        "name": "glycereth-26",
+        "cosdna_name": "glycereth-26",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "31694-55-0",
+        "description": "Moisturizer, Dispersing agent"
+    },
+    "8f93011164": {
+        "name": "dimethiconol",
+        "cosdna_name": "dimethiconol",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "31692-79-2",
+        "description": "Emollient"
+    },
+    "00f4e8568": {
+        "name": "evening primrose oil",
+        "cosdna_name": "evening primrose oil",
+        "aliases": [
+            "oenothera biennis oil",
+            "evening promose oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90028-66-3",
+        "description": "Emollient, Plant extract"
+    },
+    "2b5b8b14410": {
+        "name": "borage seed oil",
+        "cosdna_name": "borago officinalis seed oil",
+        "aliases": [
+            "borage seed oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "225234-12-8",
+        "description": "Emollient, Plant extract"
+    },
+    "47dfc31739": {
+        "name": "hydrogenated lecithin",
+        "cosdna_name": "hydrogenated lecithin",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "92128-87-5",
+        "description": "Emulsifier"
+    },
+    "c761da2740": {
+        "name": "superoxide dismutase",
+        "cosdna_name": "superoxide dismutase",
+        "aliases": [
+            "sod",
+            "cuznsod"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9054-89-1",
+        "description": "Antioxidant"
+    },
+    "65d0851901": {
+        "name": "linoleamidopropyl pg-dimonium chloride phosphate",
+        "cosdna_name": "linoleamidopropyl pg-dimonium chloride phosphate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Surfactant; Stabilizing agent; Antistatic"
+    },
+    "e81b872894": {
+        "name": "chlorphenesin",
+        "cosdna_name": "chlorphenesin",
+        "aliases": [
+            "maolate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "104-29-0",
+        "description": "Preservative; Antimicrobial"
+    },
+    "3d1b7c425": {
+        "name": "benzoic acid",
+        "cosdna_name": "benzoic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "65-85-0",
+        "description": "Bulking agent; Preservative"
+    },
+    "b3d7c210384": {
+        "name": "ethoxydiglycol",
+        "cosdna_name": "ethoxydiglycol",
+        "aliases": [
+            "2-(2-ethoxyethoxy)ethanol",
+            "carbitol"
+        ],
+        "mass": 134.18,
+        "hlb": null,
+        "cas_no": "111-90-0",
+        "description": "Solvent, Viscosity Control"
+    },
+    "b87736828": {
+        "name": "polysorbate 80",
+        "cosdna_name": "tween 80",
+        "aliases": [
+            "poe (20) sorbitan monooleate",
+            "polysorbate 80",
+            "polyoxyethylene sorbitan monooleate"
+        ],
+        "mass": null,
+        "hlb": 15.7,
+        "cas_no": "9005-65-6",
+        "description": "Hydrophilic Emulsifier; Solubilizing Agent; Denaturing agent"
+    },
+    "8847aa2864": {
+        "name": "ferulic acid",
+        "cosdna_name": "ferulic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1135-24-6",
+        "description": "Antioxidant"
+    },
+    "30f22f427": {
+        "name": "dehydroacetic acid",
+        "cosdna_name": "dehydroacetic acid",
+        "aliases": [
+            "methylacetopyronone",
+            "biocide 470f"
+        ],
+        "mass": 168.15,
+        "hlb": null,
+        "cas_no": "520-45-6",
+        "description": "Preservative"
+    },
+    "60c99c998": {
+        "name": "zinc pca",
+        "cosdna_name": "zinc pca",
+        "aliases": [
+            "zinc complex l-pca",
+            "zn pca",
+            "zinc l-2-pyrrolidone-5-carboxylate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68107-75-5",
+        "description": "Humectant; Skin conditioning"
+    },
+    "46d3321580": {
+        "name": "dimethyl isosorbide",
+        "cosdna_name": "dimethyl isosorbide",
+        "aliases": [
+            "arlasolve dmi"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "5306-85-4",
+        "description": "Solvent; Viscosity decreasing"
+    },
+    "56980413168": {
+        "name": "tamarind seed gum",
+        "cosdna_name": "tamarindus indica seed gum",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84961-62-6",
+        "description": "Emulsion Stabilizer; Viscosity Controlling"
+    },
+    "bd1f871814": {
+        "name": "isoceteth-20",
+        "cosdna_name": "isoceteth-20",
+        "aliases": [
+            "arlasolve 200l"
+        ],
+        "mass": null,
+        "hlb": 15.7,
+        "cas_no": "69364-63-2",
+        "description": "Surfactant, Solvent, Emulsifier"
+    },
+    "22ac5018873": {
+        "name": "sodium hyaluronate crosspolymer",
+        "cosdna_name": "sodium hyaluronate crosspolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "105524-32-1",
+        "description": "Humectant; Skin Conditioning"
+    },
+    "17f44f14690": {
+        "name": "ahnfeltia concinna extract",
+        "cosdna_name": "ahnfeltia concinna extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "223749-75-5",
+        "description": "Gel Forming; Skin Protecting"
+    },
+    "5bb09d12167": {
+        "name": "trisodium ethylenediamine disuccinate",
+        "cosdna_name": "trisodium ethylenediamine disuccinate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "20846-91-7",
+        "description": "Cleaning agent"
+    },
+    "56f78f6500": {
+        "name": "1,2-hexanediol",
+        "cosdna_name": "1,2-hexanediol",
+        "aliases": [
+            ""
+        ],
+        "mass": 118.17,
+        "hlb": null,
+        "cas_no": "6920-22-5",
+        "description": "Solvent"
+    },
+    "a57e99179": {
+        "name": "homosalate",
+        "cosdna_name": "homosalate",
+        "aliases": [
+            "homomethyl salicylate"
+        ],
+        "mass": 262.36,
+        "hlb": null,
+        "cas_no": "118-56-9",
+        "description": "Sunscreen"
+    },
+    "ebaca21028": {
+        "name": "menthyl anthranilate",
+        "cosdna_name": "menthyl anthranilate",
+        "aliases": [
+            "meradimate",
+            "methyl p-aminobenzoate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "134-09-8",
+        "description": "Sunscreen"
+    },
+    "4f4a4b277": {
+        "name": "octocrylene",
+        "cosdna_name": "2-ethylhexyl-2-cyano-3",
+        "aliases": [
+            "3-diphenyl acrylate",
+            "octocrylene"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "6197-30-4",
+        "description": "Sunscreen"
+    },
+    "0ddcdc2874": {
+        "name": "behentrimonium methosulfate",
+        "cosdna_name": "behentrimonium methosulfate",
+        "aliases": [
+            ""
+        ],
+        "mass": 479.8,
+        "hlb": null,
+        "cas_no": "81646-13-1",
+        "description": "Preservative"
+    },
+    "35c7b320472": {
+        "name": "ceramide 9",
+        "cosdna_name": "ceramide 9",
+        "aliases": [
+            "ceramide eop"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin and hair conditioning"
+    },
+    "3d9e521284": {
+        "name": "aluminum starch octenylsuccinate",
+        "cosdna_name": "aluminum starch octenylsuccinate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9087-61-0",
+        "description": "Absorbent; Anticaking agent; Lipophilic Viscosity Controlling"
+    },
+    "938ea3418": {
+        "name": "hydroxyethylcellulose",
+        "cosdna_name": "hydroxyethylcellulose",
+        "aliases": [
+            "hydroxyethyl cellulose",
+            "hydroxy ethyl cellulose",
+            "cellosize",
+            "hec",
+            "hec qp52000"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9004-62-0",
+        "description": "Binding agent; Emulsion Stabilizer; Film-forming agent; Hydrophilic Thickener"
+    },
+    "2c510d793": {
+        "name": "isohexadecane",
+        "cosdna_name": "isohexadecane",
+        "aliases": [
+            ""
+        ],
+        "mass": 226.44,
+        "hlb": null,
+        "cas_no": "4390-04-9",
+        "description": "Emollient; Solvent"
+    },
+    "452d3e1111": {
+        "name": "isononyl isononanoate",
+        "cosdna_name": "isononyl isononanoate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "42131-25-9",
+        "description": "Synthetic ester, Emollient"
+    },
+    "52b7131550": {
+        "name": "dicaprylyl ether",
+        "cosdna_name": "dicaprylyl ether",
+        "aliases": [
+            "dioctyl ether"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "629-82-3",
+        "description": "Solvent, Emollient"
+    },
+    "0cafd22153": {
+        "name": "peg-30 dipolyhydroxystearate",
+        "cosdna_name": "peg-30 dipolyhydroxystearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 5.5,
+        "cas_no": null,
+        "description": "Emulsifier"
+    },
+    "82a6306380": {
+        "name": "triethylhexanoin",
+        "cosdna_name": "triethylhexanoin",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7360-38-5",
+        "description": "Synthetic ester, Emollient"
+    },
+    "8616be2341": {
+        "name": "polyglyceryl-4 isostearate",
+        "cosdna_name": "polyglyceryl-4 isostearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "91824-88-3",
+        "description": "Emulsifier"
+    },
+    "90f3e610236": {
+        "name": "dicaprylyl carbonate",
+        "cosdna_name": "dicaprylyl carbonate",
+        "aliases": [
+            "cetiol cc"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1680-31-5",
+        "description": "Emollient"
+    },
+    "3e04e41205": {
+        "name": "ethylene/acrylic acid copolymer",
+        "cosdna_name": "ethylene/acrylic acid copolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9010-77-9",
+        "description": "Binding agent; Emulsion Stabilizer; Film-forming agent"
+    },
+    "9cd233376": {
+        "name": "triethanolamine",
+        "cosdna_name": "triethanolamine",
+        "aliases": [
+            "tea",
+            "t.e.a",
+            "triethanoamine",
+            "triethanolamide",
+            "trolamine"
+        ],
+        "mass": 149.188,
+        "hlb": null,
+        "cas_no": "102-71-6",
+        "description": "Buffering agent"
+    },
+    "ba9fb8339": {
+        "name": "silica",
+        "cosdna_name": "silica",
+        "aliases": [
+            "silicon dioxide",
+            "silicic anhydride",
+            "siliceous earth"
+        ],
+        "mass": 60.0843,
+        "hlb": null,
+        "cas_no": "112945-52-5",
+        "description": "Absorbent; Abrasive; Opacifying agent; Anticaking agent; Bulking agent; Viscosity Controlling"
+    },
+    "82f11311002": {
+        "name": "poly c10-30 alkyl acrylate",
+        "cosdna_name": "poly c10-30 alkyl acrylate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emulsion Stabilizer, Viscosity Controlling"
+    },
+    "78d2f06709": {
+        "name": "aluminum stearate",
+        "cosdna_name": "aluminum stearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7047-84-9",
+        "description": "Anticaking agent; Pigment; Emulsion Stabilizer; Lipophilic Thickener"
+    },
+    "9c15831276": {
+        "name": "alumina",
+        "cosdna_name": "alumina",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1333-84-2",
+        "description": "Abrasive; Opacifying agent; Anticaking agent; Absorbent; Viscosity Controlling"
+    },
+    "e5fc211280": {
+        "name": "aluminum hydroxide",
+        "cosdna_name": "aluminum hydroxide",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "21645-51-2",
+        "description": "Opacifying agent; Viscosity Controlling"
+    },
+    "8eea368505": {
+        "name": "p-anisic acid",
+        "cosdna_name": "p-anisic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "100-09-4",
+        "description": "Fragrance ingredient"
+    },
+    "89a24f10275": {
+        "name": "disodium stearoyl glutamate",
+        "cosdna_name": "disodium stearoyl glutamate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "38079-62-8",
+        "description": "Emulsifier"
+    },
+    "61b38a2504": {
+        "name": "propylene carbonate",
+        "cosdna_name": "propylene carbonate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "108-32-7",
+        "description": "Solvent"
+    },
+    "0f1b7f1402": {
+        "name": "capryloyl salicylic acid",
+        "cosdna_name": "capryloyl salicylic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "70424-62-3",
+        "description": "Skin conditioning"
+    },
+    "0ac34111010": {
+        "name": "diethylhexyl syringylidene malonate",
+        "cosdna_name": "diethylhexyl syringylidene malonate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "444811-29-4",
+        "description": "Skin Protecting"
+    },
+    "b3ccd66442": {
+        "name": "disteardimonium hectorite",
+        "cosdna_name": "disteardimonium hectorite",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "94891-31-3",
+        "description": "Stabilizing agent; Thickener; Suspending agent"
+    },
+    "dd78942349": {
+        "name": "polyhydroxystearic acid",
+        "cosdna_name": "polyhydroxystearic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "27924-99-8",
+        "description": "Emulsifier"
+    },
+    "fada7814712": {
+        "name": "algae extract",
+        "cosdna_name": "algae extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "92128-82-0",
+        "description": "Emollient; Humectant; Masking; Oral Care; Skin Conditioning"
+    },
+    "10d7ba950": {
+        "name": "decyl glucoside",
+        "cosdna_name": "decyl glucoside",
+        "aliases": [
+            ""
+        ],
+        "mass": 320.42,
+        "hlb": null,
+        "cas_no": "58846-77-8",
+        "description": "Surfactant; Cleaning agent"
+    },
+    "b898356384": {
+        "name": "sorbitan olivate",
+        "cosdna_name": "sorbitan olivate",
+        "aliases": [
+            "olivem 1000",
+            "olivem 900",
+            "cetearyl olivate",
+            "cetearyl olivate / sorbitan olivate",
+            "cetearyl olivate and sorbitan olivate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emulsifier"
+    },
+    "1c4ecd1188": {
+        "name": "sesame seed oil",
+        "cosdna_name": "gingelly oil",
+        "aliases": [
+            "til oil",
+            "sesamum indicum oil",
+            "sesame oil",
+            "sesamum indicum seed oil",
+            "sasame oil",
+            "oleum sesami indicae",
+            "szez\u00e1m olaj",
+            "sesame seed oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8008-74-0",
+        "description": "Emollient; Fragrance; Skin and hair conditioning"
+    },
+    "866c5a19791": {
+        "name": "lime oil",
+        "cosdna_name": "citrus aurantifolia oil",
+        "aliases": [
+            "lime oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8008-26-2",
+        "description": "Cleansing; Hair Conditioning; Masking; Perfuming; Skin Conditioning; Tonic"
+    },
+    "d8f26520748": {
+        "name": "orange oil",
+        "cosdna_name": "citrus aurantium dulcis oil",
+        "aliases": [
+            "citrus aurantium dulcis (orange) oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8008-57-9",
+        "description": "Fragrance"
+    },
+    "3cae1116912": {
+        "name": "juniper fruit oil",
+        "cosdna_name": "juniperus communis fruit oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8002-68-4",
+        "description": "Masking; Perfuming"
+    },
+    "65f6f11237": {
+        "name": "cypress",
+        "cosdna_name": "cypress",
+        "aliases": [
+            "cupressus sempervirens"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Astringent"
+    },
+    "419adb20036": {
+        "name": "jasmine oil",
+        "cosdna_name": "jasminum officinale oil",
+        "aliases": [
+            "jasmine oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8022-96-6",
+        "description": "Masking; Moisturising; Perfuming; Skin Conditioning; Soothing"
+    },
+    "5dbe43507": {
+        "name": "glycine",
+        "cosdna_name": "glycine",
+        "aliases": [
+            "glycocoll",
+            "aminoacetic acid",
+            "l-glycine"
+        ],
+        "mass": 75.07,
+        "hlb": null,
+        "cas_no": "56-40-6",
+        "description": "Buffering agent; Skin conditioning, keeping the skin moist"
+    },
+    "383bb7435": {
+        "name": "potassium sorbate",
+        "cosdna_name": "potassium sorbate",
+        "aliases": [
+            ""
+        ],
+        "mass": 150.22,
+        "hlb": null,
+        "cas_no": "590-00-1",
+        "description": "Preservative"
+    },
+    "ee8723493": {
+        "name": "chlorophyll extract",
+        "cosdna_name": "chlorophyll",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Pigment"
+    },
+    "d3295918674": {
+        "name": "elder fruit extract",
+        "cosdna_name": "sambucus nigra fruit extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84603-58-7",
+        "description": "Astringent"
+    },
+    "043b0f72": {
+        "name": "biosaccharide gum-1",
+        "cosdna_name": "biosaccharide gum-1",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Moisturizer"
+    },
+    "d0a87d17917": {
+        "name": "geranium flower oil",
+        "cosdna_name": "pelargonium graveolens flower oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90082-51-2",
+        "description": "Masking"
+    },
+    "ed918715308": {
+        "name": "ylang-ylang flower oil",
+        "cosdna_name": "cananga odorata flower oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "83863-30-3",
+        "description": "Masking; Perfuming"
+    },
+    "c23dd69049": {
+        "name": "polyglyceryl-3 stearate",
+        "cosdna_name": "polyglyceryl-3 stearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "26855-43-6",
+        "description": "Emulsifier"
+    },
+    "f6255d1463": {
+        "name": "cetyl esters",
+        "cosdna_name": "cetyl esters",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient"
+    },
+    "8658131169": {
+        "name": "cetyl ethylhexanoate",
+        "cosdna_name": "cetearyloctanoate",
+        "aliases": [
+            "cetyl 2-ethylhexanoate",
+            "cetyl octanoate",
+            "hexadecyl 2-ethylhexanoate",
+            "hexadecyl ester",
+            "cetyl ethylhexanoate",
+            "cetearyl octanoate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "59130-69-7",
+        "description": "Synthetic ester, Viscosity Control, Emollient"
+    },
+    "92d0b110573": {
+        "name": "diethylhexyl succinate",
+        "cosdna_name": "diethylhexyl succinate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "2915-57-3",
+        "description": "Emollient; Solvent; Plasticizer"
+    },
+    "fa0339967": {
+        "name": "octyldodecanol",
+        "cosdna_name": "octyldodecanol",
+        "aliases": [
+            "2-octyldodecan-1-ol"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "5333-42-6",
+        "description": "Emulsifier; Fragrance; Solvent"
+    },
+    "daa7ae19236": {
+        "name": "tocopheryl linoleate/oleate",
+        "cosdna_name": "tocopheryl linoleate/oleate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Antioxidant; Skin Conditioning"
+    },
+    "92fcb119806": {
+        "name": "bergamot fruit extract",
+        "cosdna_name": "citrus aurantium bergamia fruit extract",
+        "aliases": [
+            "bergamot fruit extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "89957-91-5",
+        "description": "Skin Conditioning"
+    },
+    "b8586819867": {
+        "name": "coriander fruit/leaf extract",
+        "cosdna_name": "coriandrum sativum fruit/leaf extract",
+        "aliases": [
+            "coriander fruit/leaf extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84775-50-8",
+        "description": "Antiseborrhoeic; Masking"
+    },
+    "9403e315727": {
+        "name": "italian cypress leaf/stem extract",
+        "cosdna_name": "cupressus sempervirens leaf/stem extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84696-07-1",
+        "description": "Skin Conditioning"
+    },
+    "a4a0ff16298": {
+        "name": "bladder wrack extract",
+        "cosdna_name": "fucus vesiculosus extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84696-13-9",
+        "description": "Emollient; Skin Conditioning; Smoothing; Soothing"
+    },
+    "1dfaa119978": {
+        "name": "soybean seed extract",
+        "cosdna_name": "glycine soja seed extract",
+        "aliases": [
+            "soybean seed extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin Conditioning"
+    },
+    "efc39720034": {
+        "name": "jasmine flower/leaf extract",
+        "cosdna_name": "jasminum officinale flower/leaf extract",
+        "aliases": [
+            "jasmine flower/leaf extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90045-94-6",
+        "description": "Masking; Moisturising; Perfuming; Skin Conditioning; Soothing"
+    },
+    "3f922220052": {
+        "name": "lavender extract",
+        "cosdna_name": "lavandula angustifolia extract",
+        "aliases": [
+            "lavender extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90063-37-9",
+        "description": "Skin Conditioning"
+    },
+    "7f7f6018115": {
+        "name": "frangipani flower extract",
+        "cosdna_name": "plumeria rubra flower extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "223748-06-9",
+        "description": "Skin Conditioning"
+    },
+    "c3d77a14524": {
+        "name": "peach fruit extract",
+        "cosdna_name": "prunus persica fruit extract",
+        "aliases": [
+            "peach fruit extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84012-34-0",
+        "description": "Abrasive; Bulking agent; Moisturizer; Skin conditioning"
+    },
+    "3ff5b6324": {
+        "name": "rose extract",
+        "cosdna_name": "rose extract",
+        "aliases": [
+            "rosa rugosa thunb.",
+            "rose"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84696-47-9",
+        "description": "Astringent"
+    },
+    "dbfcce20275": {
+        "name": "rosemary leaf extract",
+        "cosdna_name": "rosmarinus officinalis leaf extract",
+        "aliases": [
+            "rosemary leaf extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84604-14-8",
+        "description": "Antimicrobial; Masking; Skin Conditioning"
+    },
+    "c1ad5119376": {
+        "name": "vanilla planifolia fruit extract",
+        "cosdna_name": "vanilla planifolia fruit extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8024-06-4",
+        "description": "Skin Conditioning; Skin Protecting; Smoothing"
+    },
+    "5fc5481": {
+        "name": "behenyl alcohol",
+        "cosdna_name": "behenyl alcohol",
+        "aliases": [
+            "docosanol",
+            "behenic alcohol"
+        ],
+        "mass": 326.61,
+        "hlb": null,
+        "cas_no": "661-19-8",
+        "description": "Emulsion Stabilizer; Lipophilic Thickener"
+    },
+    "cf1fc6108": {
+        "name": "cetyl phosphate",
+        "cosdna_name": "cetyl phosphate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "3539-43-3",
+        "description": "Emulsifier"
+    },
+    "1567f910317": {
+        "name": "acrylamide/sodium acryloyldimethyltaurate copolymer",
+        "cosdna_name": "acrylamide/sodium acryloyldimethyltaurate copolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "38193-60-1",
+        "description": "Emulsion Stabilizer; Hydrophilic Thickener"
+    },
+    "18238912740": {
+        "name": "c13-15 alkane",
+        "cosdna_name": "c13-15 alkane",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "64741-76-0",
+        "description": "Solvent"
+    },
+    "a195941311": {
+        "name": "arachidyl alcohol",
+        "cosdna_name": "arachidyl alcohol",
+        "aliases": [
+            "1-icosanol"
+        ],
+        "mass": 298.55,
+        "hlb": null,
+        "cas_no": "629-96-9",
+        "description": "Emollient"
+    },
+    "9e91e11057": {
+        "name": "saccharide isomerate",
+        "cosdna_name": "pentavin",
+        "aliases": [
+            "pentavitine",
+            "saccharide isomerate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Moisturizer"
+    },
+    "0f102710655": {
+        "name": "xylitylglucoside",
+        "cosdna_name": "xylitylglucoside",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Humectant"
+    },
+    "69ac9e10654": {
+        "name": "anhydroxylitol",
+        "cosdna_name": "anhydroxylitol",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "53448-53-6",
+        "description": "Humectant"
+    },
+    "d0953417706": {
+        "name": "parietaria officinalis extract",
+        "cosdna_name": "parietaria officinalis extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84012-32-8",
+        "description": "Emollient; Soothing"
+    },
+    "1e6ea920082": {
+        "name": "mallow flower leaf/stem extract",
+        "cosdna_name": "malva sylvestris flower/leaf/stem extract",
+        "aliases": [
+            "mallow flower/leaf/stem extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84082-57-5",
+        "description": "Skin Conditioning"
+    },
+    "e5a7da20003": {
+        "name": "ivy leaf/stem extract",
+        "cosdna_name": "hedera helix leaf/stem extract",
+        "aliases": [
+            "ivy leaf/stem extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84082-54-2",
+        "description": "Anticaking; Antimicrobial; Astringent; Skin Conditioning; Soothing; Tonic"
+    },
+    "3abe1f19886": {
+        "name": "cucumber fruit extract",
+        "cosdna_name": "cucumis sativus fruit extract",
+        "aliases": [
+            "cucumber fruit extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "89998-01-6",
+        "description": "Emollient; Skin Conditioning"
+    },
+    "28482314894": {
+        "name": "wolf's bane flower extract",
+        "cosdna_name": "arnica montana flower extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68990-11-4",
+        "description": "Masking; Perfuming; Skin Conditioning"
+    },
+    "e672f118670": {
+        "name": "elder flower extract",
+        "cosdna_name": "sambucus nigra flower extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84603-58-7",
+        "description": "Refreshing; Skin Conditioning; Soothing; Tonic"
+    },
+    "381b3f10294": {
+        "name": "arachidyl glucoside",
+        "cosdna_name": "arachidyl glucoside",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient; Emulsifier"
+    },
+    "9199212294": {
+        "name": "phytic acid",
+        "cosdna_name": "phytic acid",
+        "aliases": [
+            "inositol hexaphosphate"
+        ],
+        "mass": 660.04,
+        "hlb": null,
+        "cas_no": "83-86-3",
+        "description": "Chelator, and will also help exfoliate skin"
+    },
+    "9d545e11867": {
+        "name": "grapefruit peel oil",
+        "cosdna_name": "citrus grandis peel oil",
+        "aliases": [
+            "grapefruit peel oil ",
+            "orange yu"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Fragrance; Skin conditioning"
+    },
+    "62cf2510424": {
+        "name": "seawater",
+        "cosdna_name": "seawater",
+        "aliases": [
+            "maris aqua"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "ee243d20491": {
+        "name": "coconut alkanes",
+        "cosdna_name": "coconut alkanes",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient; Solvent"
+    },
+    "f48fb019513": {
+        "name": "squalene",
+        "cosdna_name": "squalene",
+        "aliases": [
+            ""
+        ],
+        "mass": 410.72,
+        "hlb": null,
+        "cas_no": "111-02-4",
+        "description": "Antistatic, Moisturizer, Emollient"
+    },
+    "67f50e294": {
+        "name": "paraffin",
+        "cosdna_name": "paraffin",
+        "aliases": [
+            "paraffin wax",
+            "hard paraffin"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8002-74-2",
+        "description": "Skin conditioning; Thickener"
+    },
+    "04aae511332": {
+        "name": "neopentyl glycol diheptanoate",
+        "cosdna_name": "neopentyl glycol diheptanoate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68855-18-5",
+        "description": "Emollient; Lipophilic Viscosity Increasing Agent"
+    },
+    "1de9d212693": {
+        "name": "bis-butyldimethicone polyglyceryl-3",
+        "cosdna_name": "bis-butyldimethicone polyglyceryl-3",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Cleaning agent; Emulsifier; Viscosity Controlling"
+    },
+    "23953e207": {
+        "name": "jojoba esters",
+        "cosdna_name": "jojoba esters",
+        "aliases": [
+            "jojoba ester"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient; Skin conditioning; Humectant"
+    },
+    "f5d18510312": {
+        "name": "lauryl peg-9 polydimethylsiloxyethyl dimethicone",
+        "cosdna_name": "lauryl peg-9 polydimethylsiloxyethyl dimethicone",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Silicone Emulsifier; Skin and hair conditioning"
+    },
+    "51515b10455": {
+        "name": "saccharomyces/xylinum black tea ferment",
+        "cosdna_name": "saccharomyces/xylinum black tea ferment",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "9780bb201": {
+        "name": "isostearic acid",
+        "cosdna_name": "isostearic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "2724-58-5",
+        "description": "Surfactant, Emulsifier"
+    },
+    "6acf4919271": {
+        "name": "trifluoropropyldimethyl/trimethylsiloxysilicate",
+        "cosdna_name": "trifluoropropyldimethyl/trimethylsiloxysilicate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Binding; Emollient; Skin Conditioning"
+    },
+    "c2628a409": {
+        "name": "trehalose",
+        "cosdna_name": "trehalose",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "99-20-7",
+        "description": "Low molecular weight humectant"
+    },
+    "4f61ec5388": {
+        "name": "moringa",
+        "cosdna_name": "moringa oleifera",
+        "aliases": [
+            "moringa"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "a6643a15284": {
+        "name": "japanese camellia flower extract",
+        "cosdna_name": "camellia japonica flower extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "223748-13-8",
+        "description": "Emollient; Skin Conditioning"
+    },
+    "910d0413457": {
+        "name": "glasswort extract",
+        "cosdna_name": "salicornia herbacea extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "91845-47-5",
+        "description": "Skin conditioning"
+    },
+    "c1c16520359": {
+        "name": "cocoa seed extract",
+        "cosdna_name": "theobroma cacao seed extract",
+        "aliases": [
+            "cocoa seed extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84649-99-0",
+        "description": "Antioxidant"
+    },
+    "c16c5510261": {
+        "name": "sea salt",
+        "cosdna_name": "sea salt",
+        "aliases": [
+            "maris sal",
+            "dead sea salt"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7647-14-5",
+        "description": ""
+    },
+    "57d6b110795": {
+        "name": "biosaccharide gum-4",
+        "cosdna_name": "biosaccharide gum-4",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "283602-75-5",
+        "description": "Skin conditioning"
+    },
+    "59db7e12153": {
+        "name": "palmitoyl tripeptide-5",
+        "cosdna_name": "palmitoyl tripeptide-5",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin conditioning"
+    },
+    "8d0e6d122": {
+        "name": "coco-caprylate/caprate",
+        "cosdna_name": "coco-caprylate/caprate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient; Skin conditioning"
+    },
+    "d762ca262": {
+        "name": "microcrystalline wax",
+        "cosdna_name": "microcrystalline wax",
+        "aliases": [
+            "cera microcristallina",
+            "microstalline wax",
+            "cera microcristallina/microcrystalline wax/cire microcristalline"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "63231-60-7",
+        "description": "Binding agent; Emulsion Stabilizer; Opacifying agent; Thickener; Viscosity Controlling"
+    },
+    "0835d82583": {
+        "name": "sodium carrageenan",
+        "cosdna_name": "sodium carrageenan",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9061-82-9",
+        "description": "Antistatic; Binding agent; Emulsion Stabilizer; Film-forming agent; Thickener; Viscosity Controlling"
+    },
+    "7063b41277": {
+        "name": "aluminum dimyristate",
+        "cosdna_name": "aluminum dimyristate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "56639-51-1",
+        "description": "Anticaking agent; Emulsion Stabilizer; Opacifying agent; Lipophilic Thickener; Viscosity Controlling"
+    },
+    "f9054c1161": {
+        "name": "boron nitride",
+        "cosdna_name": "boron nitride",
+        "aliases": [
+            "boron nitrite"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "10043-11-5",
+        "description": "Absorbent"
+    },
+    "339cf61617": {
+        "name": "disodium phosphate",
+        "cosdna_name": "disodium phosphate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7558-79-4",
+        "description": "Buffering agent"
+    },
+    "3cd1d120793": {
+        "name": "coco-caprylate",
+        "cosdna_name": "coco-caprylate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient"
+    },
+    "d9400110350": {
+        "name": "polyglyceryl-6 stearate",
+        "cosdna_name": "polyglyceryl-6 stearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "95461-65-7",
+        "description": "Hydrophilic Emulsifier"
+    },
+    "f1139111455": {
+        "name": "polyglyceryl-6 behenate",
+        "cosdna_name": "polyglyceryl-6 behenate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emulsion Stabilizer; Slip Modifier"
+    },
+    "db531e2050": {
+        "name": "oleyl erucate",
+        "cosdna_name": "oleyl erucate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "17673-56-2",
+        "description": "Emollient"
+    },
+    "5377e810776": {
+        "name": "diethylhexyl carbonate",
+        "cosdna_name": "diethylhexyl carbonate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "14858-73-2",
+        "description": "Emollient"
+    },
+    "06188b20786": {
+        "name": "chamomile extract",
+        "cosdna_name": "chamomilla recutita extract",
+        "aliases": [
+            "matricaria extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84082-60-0",
+        "description": "Skin conditioning"
+    },
+    "a9aee9604": {
+        "name": "ginger",
+        "cosdna_name": "ginger",
+        "aliases": [
+            "zingiber officinalis",
+            "zingiber aromaticus",
+            "zingiber officinale",
+            "aframomum augustifolium"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "fd61b244": {
+        "name": "aloe vera",
+        "cosdna_name": "aloe vera",
+        "aliases": [
+            "aloe barbadensis miller",
+            "aloe vera gel",
+            "barbados aloe",
+            "aloe barbadensis",
+            "aloe barbadensis gel",
+            "aloe barbadenis"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Anti-inflammatory"
+    },
+    "862748283": {
+        "name": "olive oil",
+        "cosdna_name": "olive oil",
+        "aliases": [
+            "olea europaea oil",
+            "olea europaea fruit oil",
+            "olea europaea husk oil",
+            "olive fruit oil",
+            "olive husk oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8001-25-0",
+        "description": "Solvent, Fragrance, Emollient, Plant extract"
+    },
+    "6af76711851": {
+        "name": "sucrose polysoyate",
+        "cosdna_name": "sucrose polysoyate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "93571-82-5",
+        "description": "Emollient; Emulsifier"
+    },
+    "5c49bc20611": {
+        "name": "ethyl palmate",
+        "cosdna_name": "ethyl palmate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient"
+    },
+    "ea2ee62734": {
+        "name": "sucrose cocoate",
+        "cosdna_name": "sucrose cocoate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Antistatic; Emulsifier"
+    },
+    "fa29d13291": {
+        "name": "citrus wilsonii tanaka",
+        "cosdna_name": "citrus wilsonii tanaka",
+        "aliases": [
+            "citrus medica limonum"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Fragrance; Skin conditioning"
+    },
+    "840fa519768": {
+        "name": "carrageen moss extract",
+        "cosdna_name": "chondrus crispus extract",
+        "aliases": [
+            "carrageenan extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "244023-79-8",
+        "description": "Skin Conditioning; Viscosity Controlling"
+    },
+    "2d18ac14564": {
+        "name": "lavender oil",
+        "cosdna_name": "lavandula angustifolia oil",
+        "aliases": [
+            "lavender oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8000-28-0",
+        "description": "Masking; Tonic"
+    },
+    "286b601779": {
+        "name": "hydrolyzed soy protein",
+        "cosdna_name": "hydrolyzed soy protein",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68607-88-5",
+        "description": "Antistatic; Humectant"
+    },
+    "d89a5a5787": {
+        "name": "dog rose",
+        "cosdna_name": "rosa canina",
+        "aliases": [
+            "dog rose"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Plant extract; Emollient"
+    },
+    "b29c3d3405": {
+        "name": "sea buckthorn",
+        "cosdna_name": "hippophae rhamnoides",
+        "aliases": [
+            "sea buckthorn"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90106-68-6",
+        "description": "Skin conditioning"
+    },
+    "71252214532": {
+        "name": "sea buckthorn",
+        "cosdna_name": "hippophae rhamnoides",
+        "aliases": [
+            "sea buckthorn seed oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "225234-03-7",
+        "description": "Skin Protecting"
+    },
+    "096e0f4683": {
+        "name": "damask rose",
+        "cosdna_name": "damask rose",
+        "aliases": [
+            "rosa damascena",
+            "bulgarian rose"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Fragrance, Astringent"
+    },
+    "ea1c07110": {
+        "name": "chamomile",
+        "cosdna_name": "chamomile et",
+        "aliases": [
+            "camomile",
+            "anthemis nobilis",
+            "matricaria chamomilla",
+            "anthemis mixta",
+            "chamaemelum nobile",
+            "chamomile",
+            "ormenis multicaulis",
+            "roman chamomile"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Anti-inflammatory, Whitening"
+    },
+    "971fa885": {
+        "name": "calendula",
+        "cosdna_name": "pot marigold",
+        "aliases": [
+            "calendula silvestre",
+            "marigold",
+            "calendula officinalis",
+            "calendula infused",
+            "calendula"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84776-23-8",
+        "description": "Anti-inflammatory, Plant extract, Emollient"
+    },
+    "5c8b4414656": {
+        "name": "african baobab seed oil",
+        "cosdna_name": "adansonia digitata seed oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "91745-12-9",
+        "description": "Emollient; Hair Conditioning; Skin Conditioning"
+    },
+    "14cf5752": {
+        "name": "apricot kernel oil",
+        "cosdna_name": "apricot kernel oil",
+        "aliases": [
+            "apricot oil",
+            "prunus armeniaca kernel oil",
+            "kyounin yu"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient, Plant extract"
+    },
+    "e059fb11888": {
+        "name": "pomegranate seed oil",
+        "cosdna_name": "punica granatum seed oil",
+        "aliases": [
+            "pomegranate seed oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84961-57-9",
+        "description": "Emollient"
+    },
+    "441ee816559": {
+        "name": "sea buckthorn fruit extract",
+        "cosdna_name": "hippophae rhamnoides fruit extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90106-68-6",
+        "description": "Skin Conditioning"
+    },
+    "f4844720060": {
+        "name": "lavender flower oil",
+        "cosdna_name": "lavandula spica flower oil",
+        "aliases": [
+            "lavender flower oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "97722-12-8",
+        "description": "Masking"
+    },
+    "2e462c163": {
+        "name": "geranium",
+        "cosdna_name": "geranium",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Moisturizer, Astringent"
+    },
+    "31331818580": {
+        "name": "dog rose fruit extract",
+        "cosdna_name": "rosa canina fruit extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84696-47-9",
+        "description": "Astringent; Skin Conditioning; Tonic"
+    },
+    "92865e11517": {
+        "name": "sodium coco-glucoside tartrate",
+        "cosdna_name": "sodium coco-glucoside tartrate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Cleaning agent; Emulsifier"
+    },
+    "5a60469051": {
+        "name": "polyglyceryl-4 caprate",
+        "cosdna_name": "polyglyceryl-4 caprate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "160391-93-5",
+        "description": "Emulsifier"
+    },
+    "8d0ca5963": {
+        "name": "sodium c14-16 olefin sulfonate",
+        "cosdna_name": "sodium c14-16 olefin sulfonate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68439-57-6",
+        "description": "Surfactant; Cleaning agent; Foam Booster"
+    },
+    "c6c72b951": {
+        "name": "sodium methyl cocoyl taurate",
+        "cosdna_name": "sodium methyl cocoyl taurate",
+        "aliases": [
+            "sodium cocoyl methyl taurate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "12765-39-8",
+        "description": "Surfactant"
+    },
+    "859d9f2590": {
+        "name": "sodium cocoamphoacetate",
+        "cosdna_name": "sodium cocoamphoacetate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68334-21-4",
+        "description": "Surfactant"
+    },
+    "b3232d20783": {
+        "name": "sodium cocoyl hydrolyzed amaranth protein",
+        "cosdna_name": "sodium cocoyl hydrolyzed amaranth protein",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin conditioning"
+    },
+    "37cc9e18461": {
+        "name": "pomegranate extract",
+        "cosdna_name": "punica granatum extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84961-57-9",
+        "description": "Astringent; Masking; Tonic"
+    },
+    "498e02583": {
+        "name": "grape seed extract",
+        "cosdna_name": "grape seed extract",
+        "aliases": [
+            "vitis vinifera seed extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Antioxidant, containing proanthocyanidins"
+    },
+    "f3e33c20235": {
+        "name": "wild cherry bark extract",
+        "cosdna_name": "prunus serotina bark extract",
+        "aliases": [
+            "wild cherry bark extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84604-07-9",
+        "description": "Masking; Moisturising; Skin Conditioning"
+    },
+    "c2e0f619798": {
+        "name": "bitter orange flower oil",
+        "cosdna_name": "citrus aurantium amara flower oil",
+        "aliases": [
+            "bitter orange flower oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68916-04-1",
+        "description": "Masking; Skin Conditioning"
+    },
+    "ccee0611923": {
+        "name": "lychee pericarp extract",
+        "cosdna_name": "litchi chinensis pericarp extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "91722-81-5",
+        "description": "Skin conditioning"
+    },
+    "7ec8d019469": {
+        "name": "yucca root extract",
+        "cosdna_name": "yucca schidigera root extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90147-57-2",
+        "description": "Skin Conditioning"
+    },
+    "77254620222": {
+        "name": "sweet cherry fruit extract",
+        "cosdna_name": "prunus avium fruit extract",
+        "aliases": [
+            "sweet cherry fruit extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85566-22-9",
+        "description": "Skin Conditioning"
+    },
+    "bc04cb20225": {
+        "name": "bitter cherry extract",
+        "cosdna_name": "prunus cerasus extract",
+        "aliases": [
+            "bitter cherry extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "89997-53-5",
+        "description": "Antioxidant; Keratolytic; Moisturising; Skin Conditioning"
+    },
+    "68b49920000": {
+        "name": "witch hazel water",
+        "cosdna_name": "hamamelis virginiana water",
+        "aliases": [
+            "witch hazel water"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84696-19-5",
+        "description": "Astringent; Hair Conditioning; Skin Conditioning; Soothing"
+    },
+    "554009929": {
+        "name": "denatured alcohol",
+        "cosdna_name": "sd alcohol",
+        "aliases": [
+            "sd alcohol 40",
+            "sd alcohol 40b",
+            "denatured alcohol",
+            "alcohol denat",
+            "dehydrated ethanol",
+            "alcohol denatured"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "64-17-5",
+        "description": "Solvent"
+    },
+    "0faefb1659": {
+        "name": "glucosamine hcl",
+        "cosdna_name": "glucosamine hcl",
+        "aliases": [
+            "glucosamine hydrochloride"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "66-84-2",
+        "description": "Antistatic"
+    },
+    "93f41615627": {
+        "name": "myrrh oil",
+        "cosdna_name": "commiphora myrrha oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84929-26-0",
+        "description": "Masking; Skin Conditioning; Tonic"
+    },
+    "02137d2687": {
+        "name": "sphingolipids",
+        "cosdna_name": "sphingolipids",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85116-74-1",
+        "description": "Emollient"
+    },
+    "82bb9c19889": {
+        "name": "cucumber oil",
+        "cosdna_name": "cucumis sativus oil",
+        "aliases": [
+            "cucumber oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "70955-25-8",
+        "description": "Emollient; Skin Conditioning"
+    },
+    "e4372b10402": {
+        "name": "brassica campestris/aleurites fordi oil copolymer",
+        "cosdna_name": "brassica campestris/aleurites fordi oil copolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Film-forming agent; Skin protecting"
+    },
+    "9c5bcf261": {
+        "name": "mica",
+        "cosdna_name": "mica",
+        "aliases": [
+            "ci 77019"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "12002-26-2",
+        "description": "Pigment"
+    },
+    "6d6e1d2784": {
+        "name": "tin oxide",
+        "cosdna_name": "tin oxide",
+        "aliases": [
+            "ci 77861"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1332-29-2",
+        "description": "Abrasive; Opacifying agent; Bulking agent; Viscosity Controlling"
+    },
+    "cbfab94665": {
+        "name": "lemongrass",
+        "cosdna_name": "cymbopogon flexuosus",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "6fd7921027": {
+        "name": "phenylbenzimidazole sulfonic acid",
+        "cosdna_name": "ensulizole",
+        "aliases": [
+            "2-phenylbenzimidazole-5-sulfonic acid",
+            "phenylbenzimidazole sulfonic acid"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "27503-81-7",
+        "description": "Sunscreen"
+    },
+    "eb2b041029": {
+        "name": "4-methylbenzylidene camphor",
+        "cosdna_name": "4-methylbenzylidene camphor",
+        "aliases": [
+            "3-(4-methylbenzylidene)bornan-2-one",
+            "3-(4-methylbenzylidene)-dl-camphor",
+            "4-mbc",
+            "enzacamene",
+            "parsol 5000"
+        ],
+        "mass": 254.37,
+        "hlb": null,
+        "cas_no": "36861-47-9",
+        "description": "Sunscreen"
+    },
+    "e4e4ab1681": {
+        "name": "glyceryl laurate",
+        "cosdna_name": "glyceryl laurate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 5.2,
+        "cas_no": "142-18-7",
+        "description": "Emollient; Emulsifier"
+    },
+    "8c79781107": {
+        "name": "pvp/hexadecene copolymer",
+        "cosdna_name": "pvp/hexadecene copolymer",
+        "aliases": [
+            "vp/hexadecene copolymer"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "32440-50-9",
+        "description": "Viscosity Control, Antistatic"
+    },
+    "96b85913584": {
+        "name": "hydrogen dimethicone",
+        "cosdna_name": "hydrogen dimethicone",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68037-59-2",
+        "description": "Film-forming agent"
+    },
+    "829f7c370": {
+        "name": "tetrasodium edta",
+        "cosdna_name": "tetrasodium edta",
+        "aliases": [
+            "edta-4na"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "64-02-8",
+        "description": "Chelator"
+    },
+    "f29973400": {
+        "name": "zirconium dioxide",
+        "cosdna_name": "zirconium dioxide",
+        "aliases": [
+            "zirconia",
+            "zirconium oxide"
+        ],
+        "mass": 123.218,
+        "hlb": null,
+        "cas_no": "1314-23-4",
+        "description": "Sunscreen"
+    },
+    "26b00937": {
+        "name": "acrylates copolymer",
+        "cosdna_name": "acrylates copolymer",
+        "aliases": [
+            "fixomer 40"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25035-69-2",
+        "description": "Antistatic; Binding agent; Film-forming agent"
+    },
+    "c7de31169": {
+        "name": "glycolic acid",
+        "cosdna_name": "glycolic acid",
+        "aliases": [
+            "hydroxyacetic acid"
+        ],
+        "mass": 76.05,
+        "hlb": null,
+        "cas_no": "79-14-1",
+        "description": "Exfoliator, Whitening"
+    },
+    "f26d4a20110": {
+        "name": "peppermint oil",
+        "cosdna_name": "mentha piperita oil",
+        "aliases": [
+            "peppermint oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8006-90-4",
+        "description": "Masking; Perfuming; Refreshing; Tonic"
+    },
+    "9f407217277": {
+        "name": "chinaberry seed oil",
+        "cosdna_name": "melia azadirachta seed oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8002-65-1",
+        "description": "Emollient"
+    },
+    "f80f2a16201": {
+        "name": "eucalyptus leaf extract",
+        "cosdna_name": "eucalyptus globulus leaf extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84625-32-1",
+        "description": "Perfuming; Skin Conditioning"
+    },
+    "a8c55a19842": {
+        "name": "grapefruit fruit extract",
+        "cosdna_name": "citrus paradisi fruit extract",
+        "aliases": [
+            "grapefruit fruit extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8016-20-4",
+        "description": "Skin Conditioning"
+    },
+    "3c709c19850": {
+        "name": "tangerine extract",
+        "cosdna_name": "citrus tangerina extract",
+        "aliases": [
+            "tangerine extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "223748-44-5",
+        "description": "Tonic"
+    },
+    "90f41517614": {
+        "name": "prickly pear fruit extract",
+        "cosdna_name": "opuntia coccinellifera fruit extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90082-21-6",
+        "description": "Skin Conditioning"
+    },
+    "dfa80c8817": {
+        "name": "peg-75",
+        "cosdna_name": "peg-75",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "25322-68-3",
+        "description": "Binding agent; Humectant; Solvent"
+    },
+    "f8f05019535": {
+        "name": "sweet orange fruit extract",
+        "cosdna_name": "citrus aurantium dulcis fruit extract",
+        "aliases": [
+            "sweet orange fruit extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8028-48-6",
+        "description": "Masking; Skin conditioning"
+    },
+    "84236f15286": {
+        "name": "japanese camellia leaf extract",
+        "cosdna_name": "camellia japonica leaf extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "223748-13-8",
+        "description": "Skin Conditioning"
+    },
+    "bcbaac10320": {
+        "name": "orchid extract",
+        "cosdna_name": "orchid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Emollient"
+    },
+    "b0c0ce15555": {
+        "name": "satsuma orange peel extract",
+        "cosdna_name": "citrus unshiu peel extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "98106-71-9",
+        "description": "Masking"
+    },
+    "e595cd978": {
+        "name": "peg-60 hydrogenated castor oil",
+        "cosdna_name": "peg-60 hydrogenated castor oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 14.7,
+        "cas_no": "61788-85-0",
+        "description": "Surfactant; Solubilizer, toning lotion will be more smooth and foaming[1].\n\ncontain less than 1% in th toning lotion products, healthy skin may not feel irritated in this concentration, but for skin injuries and inflammation of skin, the part of solubilizer may cause irritation.Ingredient safety 5/5(the higher the better)[1]."
+    },
+    "597f0c19712": {
+        "name": "oat kernel flour",
+        "cosdna_name": "avena sativa kernel flour",
+        "aliases": [
+            "oat kernel flour"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "134134-86-4",
+        "description": "Abrasive; Absorbent; Bulking; Viscosity Controlling"
+    },
+    "cdb997981": {
+        "name": "methyl gluceth-20",
+        "cosdna_name": "methyl gluceth-20",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68239-42-9",
+        "description": "Surfactant; Solubilizer, toning lotion will be more smooth and foaming[1].\n\ncontain less than 1% in th toning lotion products, healthy skin may not feel irritated in this concentration, but for skin injuries and inflammation of skin, the part of solubilizer may cause irritation.Ingredient safety 5/5(the higher the better)[1]."
+    },
+    "3cb8eb16101": {
+        "name": "enantia chlorantha bark extract",
+        "cosdna_name": "enantia chlorantha bark extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin Conditioning"
+    },
+    "23c5592742": {
+        "name": "synthetic fluorphlogopite",
+        "cosdna_name": "synthetic fluorphlogopite",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "12003-38-2",
+        "description": "Hydrophilic Thickener; Viscosity Controlling; Bulking agent"
+    },
+    "40126510286": {
+        "name": "acetyl tetrapeptide-5",
+        "cosdna_name": "tetrapeptide",
+        "aliases": [
+            "acetyl tetrapeptide-5",
+            "acetyl tetrapeptide-9"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "5ea85014739": {
+        "name": "aloe barbadensis leaf water",
+        "cosdna_name": "aloe barbadensis leaf water",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85507-69-3",
+        "description": "Masking"
+    },
+    "182e7f19672": {
+        "name": "kiwi fruit water",
+        "cosdna_name": "actinidia chinensis fruit water",
+        "aliases": [
+            "kiwi fruit water"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "92456-63-8",
+        "description": "Masking"
+    },
+    "279939357": {
+        "name": "soy protein",
+        "cosdna_name": "soy protein",
+        "aliases": [
+            "soybean protein",
+            "glycine soja protein",
+            "glycine soja/soybean protein"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68153-28-6",
+        "description": "Emulsifier; Emollient"
+    },
+    "f307c517173": {
+        "name": "matrimony vine fruit extract",
+        "cosdna_name": "lycium barbarum fruit extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "85085-46-7",
+        "description": "Astringent; Hair Conditioning; Skin Conditioning"
+    },
+    "750f489100": {
+        "name": "polyvinyl acetate",
+        "cosdna_name": "polyvinyl acetate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9003-20-7",
+        "description": "Antistatic; Binding agent; Emulsion Stabilizer; Film-forming agent"
+    },
+    "8915306479": {
+        "name": "yeast extract",
+        "cosdna_name": "yeast extract",
+        "aliases": [
+            "extrait de levure",
+            "faex",
+            "saccharomyce",
+            "saccharomyces lysate",
+            "live yeast extract",
+            "yeast"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8013-01-2",
+        "description": "Skin conditioning"
+    },
+    "ede7813765": {
+        "name": "cellulose gum",
+        "cosdna_name": "cellulose gum",
+        "aliases": [
+            "carboxymethyl cellulose",
+            "cmc",
+            "enzymatically hydrolyzed carboxymethyl cellulose"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9004-32-4",
+        "description": "Binding agent; Emulsion Stabilizer; Thickener; Film-forming agent"
+    },
+    "e9589b10130": {
+        "name": "cinnamal",
+        "cosdna_name": "cinnamal",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "104-55-2",
+        "description": "Fragrance"
+    },
+    "148e331117": {
+        "name": "winter squash",
+        "cosdna_name": "cucurbita pepo",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "52cc7c5716": {
+        "name": "winter squash",
+        "cosdna_name": "pumpkin",
+        "aliases": [
+            "cucurbita pepo"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "89998-03-8",
+        "description": "Skin conditioning"
+    },
+    "e03583347": {
+        "name": "sodium lactate",
+        "cosdna_name": "sodium lactate",
+        "aliases": [
+            "l-sodium lactate"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "72-17-3",
+        "description": "Moisturizer"
+    },
+    "c0348014505": {
+        "name": "olive leaf extract",
+        "cosdna_name": "olea europaea leaf extract",
+        "aliases": [
+            "olive leaf extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8001-25-0",
+        "description": "Fragrance; Skin conditioning"
+    },
+    "62d146399": {
+        "name": "zinc sulfate",
+        "cosdna_name": "zinc sulfate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7446-19-7",
+        "description": "Astringent"
+    },
+    "e5138e20210": {
+        "name": "polyporus umbellatus extract",
+        "cosdna_name": "polyporus umbellatus extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "223751-84-6",
+        "description": "Skin Protecting"
+    },
+    "bc33d253": {
+        "name": "arbutin",
+        "cosdna_name": "arbutin",
+        "aliases": [
+            "arbutoside",
+            "arbutine"
+        ],
+        "mass": 272.25,
+        "hlb": null,
+        "cas_no": "497-76-7",
+        "description": "Whitening"
+    },
+    "b9b7f0140": {
+        "name": "bioflavonoids",
+        "cosdna_name": "d-flavanoids",
+        "aliases": [
+            "d-flavonoids",
+            "bioflavonoids",
+            "flavonoids"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "61788-55-4",
+        "description": "Anti-inflammatory, Antioxidant"
+    },
+    "fafea110529": {
+        "name": "ethyl macadamiate",
+        "cosdna_name": "ethyl macadamiate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "214495-31-5",
+        "description": "Emollient"
+    },
+    "63e4bc20509": {
+        "name": "black chokeberry fruit extract",
+        "cosdna_name": "aronia melanocarpa fruit extract",
+        "aliases": [
+            "black chokeberry fruit extract"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin conditioning"
+    },
+    "a124216229": {
+        "name": "great mullein",
+        "cosdna_name": "verbascum thapsus",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Plant extract"
+    },
+    "eb623419098": {
+        "name": "mexican marigold flower extract",
+        "cosdna_name": "tagetes erecta flower extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90131-43-4",
+        "description": "Perfuming; Skin Conditioning"
+    },
+    "5e84061251": {
+        "name": "provitamin d3",
+        "cosdna_name": "7-dehydrocholesterol",
+        "aliases": [
+            "provitamin d3"
+        ],
+        "mass": 384.638,
+        "hlb": null,
+        "cas_no": "434-16-2",
+        "description": "Emulsion Stabilizer; Thickener; Viscosity Controlling"
+    },
+    "3f58459977": {
+        "name": "corn oil",
+        "cosdna_name": "zea mays oil",
+        "aliases": [
+            "corn oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8001-30-7",
+        "description": "Emollient; Antistatic; Solvent; Emulsifier; Skin and hair conditioning"
+    },
+    "df010e330": {
+        "name": "safflower seed oil",
+        "cosdna_name": "safflower oil",
+        "aliases": [
+            "safflower seed oil",
+            "carthamus tinctorius seed oil",
+            "hybrid safflower oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8001-23-8",
+        "description": "Fragrance; Skin conditioning"
+    },
+    "a30391247": {
+        "name": "malic acid",
+        "cosdna_name": "malic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "97-67-6",
+        "description": "Antioxidant"
+    },
+    "7d45c6369": {
+        "name": "myristic acid",
+        "cosdna_name": "myristic acid",
+        "aliases": [
+            "c14",
+            "tetradecanoic fatty acid"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "544-63-8",
+        "description": "Emulsifier; Cleaning agent; Fragrance"
+    },
+    "4cde459062": {
+        "name": "polyglyceryl-6 isostearate",
+        "cosdna_name": "polyglyceryl-6 isostearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "126928-07-2",
+        "description": "Emulsifier"
+    },
+    "6ac4431049": {
+        "name": "microcrystalline cellulose",
+        "cosdna_name": "microcrystalline cellulose",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9004-34-6",
+        "description": ""
+    },
+    "52fb0c1330": {
+        "name": "behenic acid",
+        "cosdna_name": "behenic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "112-85-6",
+        "description": "Emulsifier; Opacifying agent"
+    },
+    "bfbaab1939": {
+        "name": "methicone",
+        "cosdna_name": "methicone",
+        "aliases": [
+            "methyl hydrogen polysiloxane",
+            "methylhydrogenpolysiloxane"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9004-73-3",
+        "description": "Antistatic; Emollient"
+    },
+    "bb89b612112": {
+        "name": "sodium acrylate/sodium acryloyldimethyl taurate copolymer",
+        "cosdna_name": "sodium acrylate/sodium acryloyldimethyl taurate copolymer",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Anticaking agent; Emulsion Stabilizer; Opacifying agent; Suspending agent; Lipophilic Viscosity Increasing Agent"
+    },
+    "3e71e0353": {
+        "name": "sorbitan oleate",
+        "cosdna_name": "sorbitan oleate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": 4.3,
+        "cas_no": "1338-43-8",
+        "description": "Emulsifier"
+    },
+    "16e9b39556": {
+        "name": "sodium phytate",
+        "cosdna_name": "sodium phytate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "14306-25-3",
+        "description": "Chelator"
+    },
+    "25280511353": {
+        "name": "corallina officinalis",
+        "cosdna_name": "corallina officinalis",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Calcareous red seaweed"
+    },
+    "fb3e091396": {
+        "name": "calcium silicate",
+        "cosdna_name": "calcium silicate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "1344-95-2",
+        "description": "Absorbent; Bulking agent; Opacifying agent; Viscosity Controlling; Pearlescent"
+    },
+    "c816662666": {
+        "name": "sodium sulfate",
+        "cosdna_name": "sodium sulfate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7727-73-3",
+        "description": "Hydrophilic Thickener; Bulking agent"
+    },
+    "eea34912195": {
+        "name": "sodium lauryl glucose carboxylate",
+        "cosdna_name": "sodium lauryl glucose carboxylate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Surfactant"
+    },
+    "f338107518": {
+        "name": "disodium cocoyl glutamate",
+        "cosdna_name": "disodium cocoyl glutamate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68187-30-4",
+        "description": "Surfactant"
+    },
+    "f93175980": {
+        "name": "peg-7 glyceryl cocoate",
+        "cosdna_name": "peg-7 glyceryl cocoate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "68201-46-7",
+        "description": "Surfactant; Solubilizer, toning lotion will be more smooth and foaming[1].\n\ncontain less than 1% in th toning lotion products, healthy skin may not feel irritated in this concentration, but for skin injuries and inflammation of skin, the part of solubilizer may cause irritation.Ingredient safety 5/5(the higher the better)[1]."
+    },
+    "9f15a310417": {
+        "name": "ceteareth-60 myristyl glycol",
+        "cosdna_name": "ceteareth-60 myristyl glycol",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "96081-39-9",
+        "description": "Emulsifier"
+    },
+    "eb396d14245": {
+        "name": "caprylhydroxamic acid",
+        "cosdna_name": "caprylhydroxamic acid",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "7377-03-9",
+        "description": "Chelator"
+    },
+    "abaa3019763": {
+        "name": "chamomile flower oil",
+        "cosdna_name": "chamomilla recutita flower oil",
+        "aliases": [
+            "matricaria flower oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8002-66-2",
+        "description": "Masking; Skin Conditioning"
+    },
+    "12af7d17919": {
+        "name": "geranium oil",
+        "cosdna_name": "pelargonium graveolens oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "90082-51-2",
+        "description": "Masking; Perfuming"
+    },
+    "ee64fb5303": {
+        "name": "mandarin orange",
+        "cosdna_name": "mandarin",
+        "aliases": [
+            "citrus nobilis",
+            "orange",
+            "citrus dulcis",
+            "citrus",
+            "citrus aurantium dulcis",
+            "citrus sinensis",
+            "citrus sinensis osbeck",
+            "mandarin orange"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": ""
+    },
+    "2b1782884": {
+        "name": "citronellol",
+        "cosdna_name": "citronellol",
+        "aliases": [
+            ""
+        ],
+        "mass": 156.27,
+        "hlb": null,
+        "cas_no": "106-22-9",
+        "description": "Fragrance"
+    },
+    "63f4cd19839": {
+        "name": "mandarin orange peel oil",
+        "cosdna_name": "citrus nobilis peel oil",
+        "aliases": [
+            "mandarin orange peel oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8008-31-9",
+        "description": "Masking; Skin Conditioning; Tonic"
+    },
+    "051ea417719": {
+        "name": "purple passionflower seed oil",
+        "cosdna_name": "passiflora incarnata seed oil",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "97676-26-1",
+        "description": "Skin Protecting"
+    },
+    "d736c7419": {
+        "name": "sweet almond oil",
+        "cosdna_name": "prunus amygdalus dulcis oil",
+        "aliases": [
+            "sweet almond oil",
+            "almond sweet oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "8007-69-0",
+        "description": "Emollient"
+    },
+    "7ad82f14555": {
+        "name": "grape seed oil",
+        "cosdna_name": "vitis vinifera seed oil",
+        "aliases": [
+            "grape seed oil"
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "84929-27-1",
+        "description": "Emollient; Skin conditioning; Antioxidant"
+    },
+    "2566aa350": {
+        "name": "sodium polyacrylate",
+        "cosdna_name": "sodium polyacrylate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9003-04-7",
+        "description": "Hydrophilic Thickener; Absorbent; Emulsion Stabilizer; Film-forming agent"
+    },
+    "bc25c81207": {
+        "name": "caprylyl methicone",
+        "cosdna_name": "caprylyl methicone",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "17955-88-3",
+        "description": "Skin conditioning"
+    },
+    "a82cff2315": {
+        "name": "polyglyceryl-10 pentastearate",
+        "cosdna_name": "polyglyceryl-10 pentastearate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "9009-32-9",
+        "description": "Lipophilic Emulsifier"
+    },
+    "df091a2664": {
+        "name": "sodium stearoyl lactylate",
+        "cosdna_name": "sodium stearoyl lactylate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "18200-72-1",
+        "description": "Emulsifier"
+    },
+    "a2f54213136": {
+        "name": "calcium aluminum borosilicate",
+        "cosdna_name": "calcium aluminum borosilicate",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": "65997-17-3",
+        "description": "Bulking agent"
+    },
+    "48a76d2195": {
+        "name": "peg-40 stearate",
+        "cosdna_name": "peg-40 stearate",
+        "aliases": [
+            "polyoxyl 40 stearate"
+        ],
+        "mass": null,
+        "hlb": 17.5,
+        "cas_no": "9004-99-3",
+        "description": "Hydrophilic Emulsifier; Surfactant"
+    },
+    "8abc216434": {
+        "name": "polysorbate 60",
+        "cosdna_name": "tween 60",
+        "aliases": [
+            "poe (20) sorbitan monostearate",
+            "polysorbate 60",
+            "polyoxyethylene (20) sorbitan monostearate"
+        ],
+        "mass": null,
+        "hlb": 14.9,
+        "cas_no": "9005-67-8",
+        "description": "Surfactant, Emulsifier"
+    },
+    "0beac113927": {
+        "name": "physalis angulata extract",
+        "cosdna_name": "physalis angulata extract",
+        "aliases": [
+            ""
+        ],
+        "mass": null,
+        "hlb": null,
+        "cas_no": null,
+        "description": "Skin Protecting"
+    }
+}

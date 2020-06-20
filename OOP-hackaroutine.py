@@ -1,5 +1,5 @@
 import numpy as np
-import pandas as pd
+# import pandas as pd
 import re
 import time
 import pickle
@@ -52,7 +52,8 @@ class Cosmetic(CosDNA):
         'serum',
         'sunblock',
         'sunscreen',
-        'toner'
+        'toner',
+        'treatment'
     ]
 
     sort_dict = {
@@ -149,32 +150,16 @@ class Cosmetic(CosDNA):
             print('Initialize or link with valid CosDNA URL to proceed')
         return self
 
-    @property
-    def cosdna_url(self):
-        return self._check_url(self._cosdna_url)
+    # @property
+    # def cosdna_url(self):
+    #     return self._check_url(self._cosdna_url)
 
-    def _set_cosdna_url(self, url=None):
-        if url:
-            if _check_url(url):
-                self._cosdna_url = _check_url(url)
+    # def _set_cosdna_url(self, url=None):
+    #     if url:
+    #         if _check_url(url):
+    #             self._cosdna_url = _check_url(url)
 
-    def _check_url(self, url=None):
-        '''
-        Checks if url is in the CosDNA domain.
 
-        Parameters
-        ----------
-        url : str
-            the web address to check
-        '''
-        if url:
-            if Cosmetic.domain in url:
-                return url
-            else:
-                print('Invalid CosDNA URL.')
-                return None
-        else:
-            return None
 
     @property
     def cosdna_id(self):
